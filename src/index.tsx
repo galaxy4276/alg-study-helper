@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { App } from '@src/App';
 
 
 ReactDOM.createRoot(document.getElementById('root') as Element)
   .render(
     <React.StrictMode>
-      <div>Hello, World!</div>
+      <App />
     </React.StrictMode>
   );

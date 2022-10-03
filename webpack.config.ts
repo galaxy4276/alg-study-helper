@@ -58,7 +58,16 @@ const webpackConfig: Configuration & WebpackDevServer.Configuration = {
     new HtmlWebpackPlugin({ template: htmlTemplateDir }),
     new ProvidePlugin({ React: 'react' }),
   ],
-  resolve: {},
+  resolve: {
+    alias: {
+      '@src': path.resolve(__dirname, 'src'),
+      '@layouts': path.resolve(__dirname, 'src', 'layouts'),
+      '@components': path.resolve(__dirname, 'src', 'components'),
+      '@public': path.resolve(__dirname, 'src', 'public'),
+    },
+    extensions: ['', 'js', 'jsx', 'ts', 'tsx'],
+    modules: [path.resolve(__dirname, 'src'), 'node_modules']
+  },
 };
 
 export default webpackConfig;
