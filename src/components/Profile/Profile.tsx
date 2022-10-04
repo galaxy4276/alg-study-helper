@@ -1,24 +1,18 @@
 import React from 'react';
 import { Problem } from '@src/components/Problem/Problem';
+import { Goals } from './Goals';
 import { Avatar } from './Avatar';
-import { Goals } from '@src/components/Profile/Goals';
 
 
-export const Profile: React.FC = () =>(
-	<div className="my-5 p-5 shadow-md bg-amber-50 " >
+export const Profile: React.FC = () => (
+
+	<article className="my-5 p-5 shadow-md flex flex-col w-full">
 		<Avatar/>
-			<div className="relative">
-			<div className="font-bold flex">
-				minesp3164
-			</div>
-			<div className="Stiker flex">
-			</div>
-			<div>
-				<Goals></Goals>
-			</div>
-			<div className="flex">Current solved</div>
-			<Problem/>
+		<div className="self-center">
+			<span className="text-slate-700 text-xl">minesp3164</span>
 		</div>
-	</div>
-
-)
+		<div className="Stiker flex" />
+		<Goals />
+		<Problem />
+	</article>
+);
