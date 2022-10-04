@@ -6,8 +6,9 @@ import { Avatar } from './Avatar';
 
 export const Profile: React.FC = () => (
 
-	<article className="my-5 p-5 shadow-md flex flex-col w-full">
-		<Avatar/>
+	<article className="my-5 p-5 shadow-md flex flex-col w-full relative">
+		<Avatar />
+		<div className="mt-20" />
 		<div className="self-center">
 			<span className="text-slate-700 text-xl">minesp3164</span>
 		</div>
