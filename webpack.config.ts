@@ -1,4 +1,4 @@
-import { Configuration, DefinePlugin } from 'webpack';
+import { Configuration, DefinePlugin, EnvironmentPlugin } from 'webpack';
 import WebpackDevServer from 'webpack-dev-server';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import path from 'path';
@@ -24,7 +24,7 @@ const webpackConfig: WebPackConfig = {
   module: {
     rules: [
       {
-        test: /\.(ts|tsx|js|jsx)$/,
+        test: /\.(ts|tsx|js|jsx|m?js)$/,
         exclude: /(node_module)/,
         use: {
           loader: 'swc-loader',
@@ -38,6 +38,7 @@ const webpackConfig: WebPackConfig = {
                 },
               },
               parser: {
+                topLevelAwait: false,
                 syntax: 'typescript',
                 tsx: true,
                 dynamicImport: true,
@@ -66,9 +67,10 @@ const webpackConfig: WebPackConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: htmlTemplateDir }),
-    new DefinePlugin({
-      'process.env.REACT_APP_GITHUB_TOKEN':JSON.stringify(process.env.EACT_APP_GITHUB_TOKEN)
-    }),
+    // new DefinePlugin({
+    //   'process.env.REACT_APP_GITHUB_TOKEN': JSON.stringify(process.env.EACT_APP_GITHUB_TOKEN as string)
+    // }),
+    new EnvironmentPlugin({ ...process.env })
   ],
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],

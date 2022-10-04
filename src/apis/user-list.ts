@@ -7,6 +7,15 @@ const userList = [
   'ChanSuy',
   'minesp',
   'pandora2948',
-];
+] as const;
+
+
+export type userListType =
+  'galaxy4276' |
+  'Antidote21' |
+  'ChanSuy' |
+  'minesp' |
+  'pandora2948';
+
 
 export default userList;
