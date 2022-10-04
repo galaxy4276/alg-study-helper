@@ -3,6 +3,8 @@ import React from 'react';
 
 export const App: React.FC = () => {
   return (
-    <div>App</div>
+    <div className="text-red-400">
+      App
+    </div>
   );
 };
