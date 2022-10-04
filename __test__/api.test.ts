@@ -1,9 +1,6 @@
 import { getAllUserCommittedList, getUserCommittedList } from '../src/apis';
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 describe('Github API 테스트', () => {
   it('Api 요청이 성공적으로 응답받는다.', async () => {
