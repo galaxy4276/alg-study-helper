@@ -1,4 +1,4 @@
-import { Configuration, EnvironmentPlugin } from 'webpack';
+import { Configuration, DefinePlugin } from 'webpack';
 import WebpackDevServer from 'webpack-dev-server';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import path from 'path';
@@ -66,7 +66,9 @@ const webpackConfig: WebPackConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: htmlTemplateDir }),
-    new EnvironmentPlugin(['REACT_APP_GITHUB_TOKEN']),
+    new DefinePlugin({
+      'process.env.REACT_APP_GITHUB_TOKEN':JSON.stringify(process.env.EACT_APP_GITHUB_TOKEN)
+    }),
   ],
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
