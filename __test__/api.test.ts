@@ -1,7 +1,7 @@
 import { getAllUserCommittedList, getUserCommittedList } from '../src/apis';
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
-import CommittedListMapper from '../src/apis/Mapper';
+import CommittedListMapper from '../src/apis/mapper';
 
 describe('Github API 테스트', () => {
 
@@ -16,6 +16,9 @@ describe('Github API 테스트', () => {
     writeFileSync(resolve(__dirname, 'sample.json'), jsonSampleData);
 
     const mapper = new CommittedListMapper(commitList);
-    console.log(mapper.getUserCommittedList('galaxy4276'));
+
+    console.log(
+      mapper.getUserCommittedList('minesp')
+    )
   })
 });
