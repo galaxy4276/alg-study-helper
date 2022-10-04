@@ -21,7 +21,7 @@ export const getUserCommittedList: (userBranchName: string) =>
     (userBranchName: string) =>
       axios.get<GithubCommitResponse[]>(getApiUrl(userBranchName), {
         headers: {
-          Authorization: `Bearer ${githubAccessToken}`,
+          Authorization: `Bearer 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`,
         },
       });
 
