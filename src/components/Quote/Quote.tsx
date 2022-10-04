@@ -14,7 +14,7 @@ export const Quote: React.FC<QuoteProps> = (
 ) => {
   return (
     <article
-      className="quote flex-all flex-col mx-0 md:mx-64 font-noto"
+      className="quote flex-all flex-col px-0 font-noto w-full"
     >
       <span>
       { children }
