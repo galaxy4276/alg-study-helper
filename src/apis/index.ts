@@ -1,11 +1,11 @@
-import dotenv from 'dotenv';
 import axios, { AxiosResponse } from 'axios';
 import { toCamel } from 'snake-camel';
 
 import type { GithubCommitResponse } from './types';
 import userList, { userListType } from '@src/apis/user-list';
 
-dotenv.config();
+
+const githubAccessToken = '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';
 
 
 export const getSprintStartedDate = () => {
@@ -22,11 +22,6 @@ export const getSprintEndDate = () => {
   return new Date(paramDate.setDate(diff)).toISOString().substring(0, 10);
 };
 
-type CommittedData = {
-  [p in keyof userListType]: GithubCommitResponse;
-}
-
-const githubAccessToken = process.env.REACT_APP_GITHUB_TOKEN as string;
 
 const getApiUrl = (userBranchName: string) =>
   `https://api.github.com/repos/galaxy4276/algorithm-study/commits?sha=${userBranchName}&q=created:${getSprintStartedDate()}..${getSprintEndDate()}`;
