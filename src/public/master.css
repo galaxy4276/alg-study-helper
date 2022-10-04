@@ -27,3 +27,11 @@ html, body {
 .card {
   @apply px-2.5 py-4 mt-10 mb-10 md:mt-20 md:mb-20 drop-shadow-md;
 }
+
+.flex-all {
+  @apply flex items-center justify-center;
+}
+
+.quote {
+  @apply bg-lime-50 rounded-xl px-2.5 py-4 shadow-sm;
+}
