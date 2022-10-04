@@ -7,8 +7,8 @@
     "typescript": "^4.8.4"
   },
   "scripts": {
-    "dev": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack serve",
-    "build": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack"
+    "dev": "cross-env mode=\"development\" TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack serve --mode development",
+    "build": "cross-env mode=\"production\" TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack --mode production"
   },
   "devDependencies": {
     "@swc/core": "^1.3.4",

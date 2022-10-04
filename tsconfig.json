@@ -17,10 +17,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "paths": {
-      "@src/*": ["src/*"],
-      "@components/*": ["components/*"],
-      "@layouts/*": ["layouts/*"],
-      "@public/*": ["public/*"]
+      "@src/*": ["./src/*"],
+      "@components/*": ["./components/*"],
+      "@layouts/*": ["./layouts/*"],
+      "@public/*": ["./public/*"]
     }
   },
   "include": ["src"],
