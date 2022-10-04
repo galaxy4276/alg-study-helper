@@ -1,0 +1,2384 @@
+{
+  "galaxy4276": [
+    {
+      "sha": "a72e5355323ded6a0838a897a265b67a725de1be",
+      "nodeId": "C_kwDOHqRXP9oAKGE3MmU1MzU1MzIzZGVkNmEwODM4YTg5N2EyNjViNjdhNzI1ZGUxYmU",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-10-01T07:19:41Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-10-01T07:19:41Z"
+        },
+        "message": "feat: 1264. 모음의 개수 (boj) java lang solved",
+        "tree": {
+          "sha": "34ba568d34b61b6314cb2d930ee81d8502526df1",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/34ba568d34b61b6314cb2d930ee81d8502526df1"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/a72e5355323ded6a0838a897a265b67a725de1be",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/a72e5355323ded6a0838a897a265b67a725de1be",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/a72e5355323ded6a0838a897a265b67a725de1be",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/a72e5355323ded6a0838a897a265b67a725de1be/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "615b1104a4703f3afa5a1ea2ccc4ad0ef36c25f2",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/615b1104a4703f3afa5a1ea2ccc4ad0ef36c25f2",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/615b1104a4703f3afa5a1ea2ccc4ad0ef36c25f2"
+        }
+      ]
+    },
+    {
+      "sha": "615b1104a4703f3afa5a1ea2ccc4ad0ef36c25f2",
+      "nodeId": "C_kwDOHqRXP9oAKDYxNWIxMTA0YTQ3MDNmM2FmYTVhMWVhMmNjYzRhZDBlZjM2YzI1ZjI",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-26T14:08:28Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-26T14:08:28Z"
+        },
+        "message": "solve: @minesp 청주대학교 다항식 문제 풀이",
+        "tree": {
+          "sha": "14c9958b788a6417fbe729982b83e8a44c16c49b",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/14c9958b788a6417fbe729982b83e8a44c16c49b"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/615b1104a4703f3afa5a1ea2ccc4ad0ef36c25f2",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/615b1104a4703f3afa5a1ea2ccc4ad0ef36c25f2",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/615b1104a4703f3afa5a1ea2ccc4ad0ef36c25f2",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/615b1104a4703f3afa5a1ea2ccc4ad0ef36c25f2/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "eb92302108e5da88b3b7c4d83be16eec9839a61e",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/eb92302108e5da88b3b7c4d83be16eec9839a61e",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/eb92302108e5da88b3b7c4d83be16eec9839a61e"
+        }
+      ]
+    },
+    {
+      "sha": "eb92302108e5da88b3b7c4d83be16eec9839a61e",
+      "nodeId": "C_kwDOHqRXP9oAKGViOTIzMDIxMDhlNWRhODhiM2I3YzRkODNiZTE2ZWVjOTgzOWE2MWU",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-20T04:11:55Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-20T04:11:55Z"
+        },
+        "message": "solve: 1032. 명령 프롬프트 (boj) java lang solved",
+        "tree": {
+          "sha": "b7eabe1df09f257bcda4177e18a15e1a280765c4",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/b7eabe1df09f257bcda4177e18a15e1a280765c4"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/eb92302108e5da88b3b7c4d83be16eec9839a61e",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/eb92302108e5da88b3b7c4d83be16eec9839a61e",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/eb92302108e5da88b3b7c4d83be16eec9839a61e",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/eb92302108e5da88b3b7c4d83be16eec9839a61e/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "b556ec5afea465e2e3233d1ea5db2277f9819123",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/b556ec5afea465e2e3233d1ea5db2277f9819123",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/b556ec5afea465e2e3233d1ea5db2277f9819123"
+        }
+      ]
+    },
+    {
+      "sha": "b556ec5afea465e2e3233d1ea5db2277f9819123",
+      "nodeId": "C_kwDOHqRXP9oAKGI1NTZlYzVhZmVhNDY1ZTJlMzIzM2QxZWE1ZGIyMjc3Zjk4MTkxMjM",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-20T03:44:44Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-20T03:44:44Z"
+        },
+        "message": "feat: 2161. 카드1 java lang solved",
+        "tree": {
+          "sha": "7faf9d3e1f81e2f5f3fd6d285203e59267532a07",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/7faf9d3e1f81e2f5f3fd6d285203e59267532a07"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/b556ec5afea465e2e3233d1ea5db2277f9819123",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/b556ec5afea465e2e3233d1ea5db2277f9819123",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/b556ec5afea465e2e3233d1ea5db2277f9819123",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/b556ec5afea465e2e3233d1ea5db2277f9819123/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "8028d4cd98bf16095759cea0033354c58255fc90",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/8028d4cd98bf16095759cea0033354c58255fc90",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/8028d4cd98bf16095759cea0033354c58255fc90"
+        }
+      ]
+    },
+    {
+      "sha": "8028d4cd98bf16095759cea0033354c58255fc90",
+      "nodeId": "C_kwDOHqRXP9oAKDgwMjhkNGNkOThiZjE2MDk1NzU5Y2VhMDAzMzM1NGM1ODI1NWZjOTA",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-16T00:17:13Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-16T00:17:13Z"
+        },
+        "message": "solve: 1926. 그림 (boj) java lang solved (BFS)",
+        "tree": {
+          "sha": "7a120fbeca07ca8821afb03330b977fa5c5d6481",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/7a120fbeca07ca8821afb03330b977fa5c5d6481"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/8028d4cd98bf16095759cea0033354c58255fc90",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/8028d4cd98bf16095759cea0033354c58255fc90",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/8028d4cd98bf16095759cea0033354c58255fc90",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/8028d4cd98bf16095759cea0033354c58255fc90/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "b8a0021be812a070cad01bc60b9a4ef244244e72",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/b8a0021be812a070cad01bc60b9a4ef244244e72",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/b8a0021be812a070cad01bc60b9a4ef244244e72"
+        }
+      ]
+    },
+    {
+      "sha": "b8a0021be812a070cad01bc60b9a4ef244244e72",
+      "nodeId": "C_kwDOHqRXP9oAKGI4YTAwMjFiZTgxMmEwNzBjYWQwMWJjNjBiOWE0ZWYyNDQyNDRlNzI",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-13T11:03:43Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-13T11:03:43Z"
+        },
+        "message": "solve: 2828. 사과담기게임(boj) java lang solved",
+        "tree": {
+          "sha": "ce8bc0759e6ef3809ef79440f4b7c3ef98933835",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/ce8bc0759e6ef3809ef79440f4b7c3ef98933835"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/b8a0021be812a070cad01bc60b9a4ef244244e72",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/b8a0021be812a070cad01bc60b9a4ef244244e72",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/b8a0021be812a070cad01bc60b9a4ef244244e72",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/b8a0021be812a070cad01bc60b9a4ef244244e72/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "9761b1fe755612183e5603696356a2364e156a5b",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/9761b1fe755612183e5603696356a2364e156a5b",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/9761b1fe755612183e5603696356a2364e156a5b"
+        }
+      ]
+    },
+    {
+      "sha": "9761b1fe755612183e5603696356a2364e156a5b",
+      "nodeId": "C_kwDOHqRXP9oAKDk3NjFiMWZlNzU1NjEyMTgzZTU2MDM2OTYzNTZhMjM2NGUxNTZhNWI",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-12T06:55:44Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-12T06:55:44Z"
+        },
+        "message": "solve: 125. Valid Palindrome (leetcode) java lang solved",
+        "tree": {
+          "sha": "1551034584c6572f0b1439da0efaeb0e9e3cd5b4",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/1551034584c6572f0b1439da0efaeb0e9e3cd5b4"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/9761b1fe755612183e5603696356a2364e156a5b",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/9761b1fe755612183e5603696356a2364e156a5b",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/9761b1fe755612183e5603696356a2364e156a5b",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/9761b1fe755612183e5603696356a2364e156a5b/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "c4f39da1f1eb017e36b671f77563011aee30cd5c",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/c4f39da1f1eb017e36b671f77563011aee30cd5c",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/c4f39da1f1eb017e36b671f77563011aee30cd5c"
+        }
+      ]
+    },
+    {
+      "sha": "c4f39da1f1eb017e36b671f77563011aee30cd5c",
+      "nodeId": "C_kwDOHqRXP9oAKGM0ZjM5ZGExZjFlYjAxN2UzNmI2NzFmNzc1NjMwMTFhZWUzMGNkNWM",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-12T01:51:31Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-12T01:51:31Z"
+        },
+        "message": "solve: 2839 설탕 배달 (boj) java lang solved",
+        "tree": {
+          "sha": "e6a6fae391a06615aa04935fb3bbc30bb4488fc0",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/e6a6fae391a06615aa04935fb3bbc30bb4488fc0"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/c4f39da1f1eb017e36b671f77563011aee30cd5c",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/c4f39da1f1eb017e36b671f77563011aee30cd5c",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/c4f39da1f1eb017e36b671f77563011aee30cd5c",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/c4f39da1f1eb017e36b671f77563011aee30cd5c/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "fd5c23a0e9d4ad43e2a6359d7d4db07a61b4c98f",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/fd5c23a0e9d4ad43e2a6359d7d4db07a61b4c98f",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/fd5c23a0e9d4ad43e2a6359d7d4db07a61b4c98f"
+        }
+      ]
+    },
+    {
+      "sha": "fd5c23a0e9d4ad43e2a6359d7d4db07a61b4c98f",
+      "nodeId": "C_kwDOHqRXP9oAKGZkNWMyM2EwZTlkNGFkNDNlMmE2MzU5ZDdkNGRiMDdhNjFiNGM5OGY",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-08T04:02:49Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-08T04:02:49Z"
+        },
+        "message": "solve: 118. Pascal's Triangle java lang solved",
+        "tree": {
+          "sha": "cb8c74b72f6bc949c6e5e5a9d74ef66f374179e0",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/cb8c74b72f6bc949c6e5e5a9d74ef66f374179e0"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/fd5c23a0e9d4ad43e2a6359d7d4db07a61b4c98f",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/fd5c23a0e9d4ad43e2a6359d7d4db07a61b4c98f",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/fd5c23a0e9d4ad43e2a6359d7d4db07a61b4c98f",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/fd5c23a0e9d4ad43e2a6359d7d4db07a61b4c98f/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "ce4898468be401ee1c0396b3f7430234e3fa90c5",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/ce4898468be401ee1c0396b3f7430234e3fa90c5",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/ce4898468be401ee1c0396b3f7430234e3fa90c5"
+        }
+      ]
+    },
+    {
+      "sha": "ce4898468be401ee1c0396b3f7430234e3fa90c5",
+      "nodeId": "C_kwDOHqRXP9oAKGNlNDg5ODQ2OGJlNDAxZWUxYzAzOTZiM2Y3NDMwMjM0ZTNmYTkwYzU",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-07T13:11:03Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-07T13:11:03Z"
+        },
+        "message": "solve: leetcode 206. Reverse Linked List java 재귀, 반복 2가지 방식으로 풀이",
+        "tree": {
+          "sha": "6fca7c783544294368a6b06edbd876a2fdf3b130",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/6fca7c783544294368a6b06edbd876a2fdf3b130"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/ce4898468be401ee1c0396b3f7430234e3fa90c5",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/ce4898468be401ee1c0396b3f7430234e3fa90c5",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/ce4898468be401ee1c0396b3f7430234e3fa90c5",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/ce4898468be401ee1c0396b3f7430234e3fa90c5/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "ce049413183860bf7ddd231054e7394d4d069a33",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/ce049413183860bf7ddd231054e7394d4d069a33",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/ce049413183860bf7ddd231054e7394d4d069a33"
+        }
+      ]
+    },
+    {
+      "sha": "ce049413183860bf7ddd231054e7394d4d069a33",
+      "nodeId": "C_kwDOHqRXP9oAKGNlMDQ5NDEzMTgzODYwYmY3ZGRkMjMxMDU0ZTczOTRkNGQwNjlhMzM",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-06T14:12:48Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-06T14:12:48Z"
+        },
+        "message": "solve: 175. Combine Two Tables SQL solved",
+        "tree": {
+          "sha": "c1c7217cfd4ca46db1b623dd39aa038f02595832",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/c1c7217cfd4ca46db1b623dd39aa038f02595832"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/ce049413183860bf7ddd231054e7394d4d069a33",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/ce049413183860bf7ddd231054e7394d4d069a33",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/ce049413183860bf7ddd231054e7394d4d069a33",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/ce049413183860bf7ddd231054e7394d4d069a33/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "6297ab4a83fba8aac6d67858f59487280ccdb1f9",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/6297ab4a83fba8aac6d67858f59487280ccdb1f9",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/6297ab4a83fba8aac6d67858f59487280ccdb1f9"
+        }
+      ]
+    },
+    {
+      "sha": "6297ab4a83fba8aac6d67858f59487280ccdb1f9",
+      "nodeId": "C_kwDOHqRXP9oAKDYyOTdhYjRhODNmYmE4YWFjNmQ2Nzg1OGY1OTQ4NzI4MGNjZGIxZjk",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-06T10:58:12Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-06T10:58:12Z"
+        },
+        "message": "solve: boj 2851 슈퍼 마리오 java lang solved",
+        "tree": {
+          "sha": "efa45324fbfde8d5e4d33ac39476b1facc19cdc5",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/efa45324fbfde8d5e4d33ac39476b1facc19cdc5"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/6297ab4a83fba8aac6d67858f59487280ccdb1f9",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/6297ab4a83fba8aac6d67858f59487280ccdb1f9",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/6297ab4a83fba8aac6d67858f59487280ccdb1f9",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/6297ab4a83fba8aac6d67858f59487280ccdb1f9/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "183af24bbc4b826695df88bdba665893ede07198",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/183af24bbc4b826695df88bdba665893ede07198",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/183af24bbc4b826695df88bdba665893ede07198"
+        }
+      ]
+    },
+    {
+      "sha": "183af24bbc4b826695df88bdba665893ede07198",
+      "nodeId": "C_kwDOHqRXP9oAKDE4M2FmMjRiYmM0YjgyNjY5NWRmODhiZGJhNjY1ODkzZWRlMDcxOTg",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-06T09:06:07Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-06T09:06:07Z"
+        },
+        "message": "Merge remote-tracking branch 'origin/main' into galaxy4276",
+        "tree": {
+          "sha": "7d1c151fab45c0917c567f97047bbe78ee3c6cda",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/7d1c151fab45c0917c567f97047bbe78ee3c6cda"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/183af24bbc4b826695df88bdba665893ede07198",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/183af24bbc4b826695df88bdba665893ede07198",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/183af24bbc4b826695df88bdba665893ede07198",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/183af24bbc4b826695df88bdba665893ede07198/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "4e774fea2ae1af3c7ad0011dbb34d4ea35775238",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/4e774fea2ae1af3c7ad0011dbb34d4ea35775238",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/4e774fea2ae1af3c7ad0011dbb34d4ea35775238"
+        },
+        {
+          "sha": "966d877b1e723c808251daaa806168c2d6590a59",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/966d877b1e723c808251daaa806168c2d6590a59",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/966d877b1e723c808251daaa806168c2d6590a59"
+        }
+      ]
+    },
+    {
+      "sha": "4e774fea2ae1af3c7ad0011dbb34d4ea35775238",
+      "nodeId": "C_kwDOHqRXP9oAKDRlNzc0ZmVhMmFlMWFmM2M3YWQwMDExZGJiMzRkNGVhMzU3NzUyMzg",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-06T09:06:01Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-06T09:06:01Z"
+        },
+        "message": "solve: 2444. boj 별 찍기 - 7 java lang solved",
+        "tree": {
+          "sha": "74d0c2d422faf4b23ac1bf1c079bb266ac8bf037",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/74d0c2d422faf4b23ac1bf1c079bb266ac8bf037"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/4e774fea2ae1af3c7ad0011dbb34d4ea35775238",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/4e774fea2ae1af3c7ad0011dbb34d4ea35775238",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/4e774fea2ae1af3c7ad0011dbb34d4ea35775238",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/4e774fea2ae1af3c7ad0011dbb34d4ea35775238/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "db61a49d6d5c5da4ae5ee58b453f33a813f14986",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/db61a49d6d5c5da4ae5ee58b453f33a813f14986",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/db61a49d6d5c5da4ae5ee58b453f33a813f14986"
+        }
+      ]
+    },
+    {
+      "sha": "966d877b1e723c808251daaa806168c2d6590a59",
+      "nodeId": "C_kwDOHqRXP9oAKDk2NmQ4NzdiMWU3MjNjODA4MjUxZGFhYTgwNjE2OGMyZDY1OTBhNTk",
+      "commit": {
+        "author": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-05T10:43:02Z"
+        },
+        "committer": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-05T10:43:02Z"
+        },
+        "message": "solve: Single Number(136) python lang",
+        "tree": {
+          "sha": "039f00f3d96ccc3c66a47c00fc464a8507b76241",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/039f00f3d96ccc3c66a47c00fc464a8507b76241"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/966d877b1e723c808251daaa806168c2d6590a59",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/966d877b1e723c808251daaa806168c2d6590a59",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/966d877b1e723c808251daaa806168c2d6590a59",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/966d877b1e723c808251daaa806168c2d6590a59/comments",
+      "author": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "dfb8f7115784a0b0ac0eaeeba131de9998d4f44c",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/dfb8f7115784a0b0ac0eaeeba131de9998d4f44c",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/dfb8f7115784a0b0ac0eaeeba131de9998d4f44c"
+        }
+      ]
+    },
+    {
+      "sha": "dfb8f7115784a0b0ac0eaeeba131de9998d4f44c",
+      "nodeId": "C_kwDOHqRXP9oAKGRmYjhmNzExNTc4NGEwYjBhYzBlYWVlYmExMzFkZTk5OThkNGY0NGM",
+      "commit": {
+        "author": {
+          "name": "Baek Dongjae",
+          "email": "pandora2948@naver.com",
+          "date": "2022-09-05T09:11:04Z"
+        },
+        "committer": {
+          "name": "Baek Dongjae",
+          "email": "pandora2948@naver.com",
+          "date": "2022-09-05T09:11:04Z"
+        },
+        "message": "Readme update",
+        "tree": {
+          "sha": "d647178648a8323425cc2f5a5216360a3cea01af",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/d647178648a8323425cc2f5a5216360a3cea01af"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/dfb8f7115784a0b0ac0eaeeba131de9998d4f44c",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/dfb8f7115784a0b0ac0eaeeba131de9998d4f44c",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/dfb8f7115784a0b0ac0eaeeba131de9998d4f44c",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/dfb8f7115784a0b0ac0eaeeba131de9998d4f44c/comments",
+      "author": {
+        "login": "pandora2948",
+        "id": 80594323,
+        "nodeId": "MDQ6VXNlcjgwNTk0MzIz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80594323?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/pandora2948",
+        "htmlUrl": "https://github.com/pandora2948",
+        "followersUrl": "https://api.github.com/users/pandora2948/followers",
+        "followingUrl": "https://api.github.com/users/pandora2948/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/pandora2948/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/pandora2948/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/pandora2948/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/pandora2948/orgs",
+        "reposUrl": "https://api.github.com/users/pandora2948/repos",
+        "eventsUrl": "https://api.github.com/users/pandora2948/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/pandora2948/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "pandora2948",
+        "id": 80594323,
+        "nodeId": "MDQ6VXNlcjgwNTk0MzIz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80594323?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/pandora2948",
+        "htmlUrl": "https://github.com/pandora2948",
+        "followersUrl": "https://api.github.com/users/pandora2948/followers",
+        "followingUrl": "https://api.github.com/users/pandora2948/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/pandora2948/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/pandora2948/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/pandora2948/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/pandora2948/orgs",
+        "reposUrl": "https://api.github.com/users/pandora2948/repos",
+        "eventsUrl": "https://api.github.com/users/pandora2948/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/pandora2948/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "38a4d82289e777d89927bb897a7304c412fdf3c4",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/38a4d82289e777d89927bb897a7304c412fdf3c4",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/38a4d82289e777d89927bb897a7304c412fdf3c4"
+        }
+      ]
+    },
+    {
+      "sha": "38a4d82289e777d89927bb897a7304c412fdf3c4",
+      "nodeId": "C_kwDOHqRXP9oAKDM4YTRkODIyODllNzc3ZDg5OTI3YmI4OTdhNzMwNGM0MTJmZGYzYzQ",
+      "commit": {
+        "author": {
+          "name": "Will Kim",
+          "email": "will@chequer.io",
+          "date": "2022-09-04T12:01:47Z"
+        },
+        "committer": {
+          "name": "Will Kim",
+          "email": "will@chequer.io",
+          "date": "2022-09-04T12:01:47Z"
+        },
+        "message": "solve: Max Consecutive Ones(485) rust lang",
+        "tree": {
+          "sha": "153c973d2bdecb9dc3e7984fc5e31a35b325c083",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/153c973d2bdecb9dc3e7984fc5e31a35b325c083"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/38a4d82289e777d89927bb897a7304c412fdf3c4",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/38a4d82289e777d89927bb897a7304c412fdf3c4",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/38a4d82289e777d89927bb897a7304c412fdf3c4",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/38a4d82289e777d89927bb897a7304c412fdf3c4/comments",
+      "author": {
+        "login": "bear-bear-bear",
+        "id": 57123802,
+        "nodeId": "MDQ6VXNlcjU3MTIzODAy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57123802?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/bear-bear-bear",
+        "htmlUrl": "https://github.com/bear-bear-bear",
+        "followersUrl": "https://api.github.com/users/bear-bear-bear/followers",
+        "followingUrl": "https://api.github.com/users/bear-bear-bear/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/bear-bear-bear/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/bear-bear-bear/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/bear-bear-bear/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/bear-bear-bear/orgs",
+        "reposUrl": "https://api.github.com/users/bear-bear-bear/repos",
+        "eventsUrl": "https://api.github.com/users/bear-bear-bear/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/bear-bear-bear/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "bear-bear-bear",
+        "id": 57123802,
+        "nodeId": "MDQ6VXNlcjU3MTIzODAy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57123802?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/bear-bear-bear",
+        "htmlUrl": "https://github.com/bear-bear-bear",
+        "followersUrl": "https://api.github.com/users/bear-bear-bear/followers",
+        "followingUrl": "https://api.github.com/users/bear-bear-bear/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/bear-bear-bear/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/bear-bear-bear/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/bear-bear-bear/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/bear-bear-bear/orgs",
+        "reposUrl": "https://api.github.com/users/bear-bear-bear/repos",
+        "eventsUrl": "https://api.github.com/users/bear-bear-bear/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/bear-bear-bear/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "52120a1fadf763fb7817bd277e6e77729593d5a6",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/52120a1fadf763fb7817bd277e6e77729593d5a6",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/52120a1fadf763fb7817bd277e6e77729593d5a6"
+        }
+      ]
+    },
+    {
+      "sha": "52120a1fadf763fb7817bd277e6e77729593d5a6",
+      "nodeId": "C_kwDOHqRXP9oAKDUyMTIwYTFmYWRmNzYzZmI3ODE3YmQyNzdlNmU3NzcyOTU5M2Q1YTY",
+      "commit": {
+        "author": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-03T18:27:11Z"
+        },
+        "committer": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-03T18:27:11Z"
+        },
+        "message": "amend README",
+        "tree": {
+          "sha": "c43d175a5952ed22604f5d209c3982bd3da6e69b",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/c43d175a5952ed22604f5d209c3982bd3da6e69b"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/52120a1fadf763fb7817bd277e6e77729593d5a6",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/52120a1fadf763fb7817bd277e6e77729593d5a6",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/52120a1fadf763fb7817bd277e6e77729593d5a6",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/52120a1fadf763fb7817bd277e6e77729593d5a6/comments",
+      "author": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "2ace7adac2dd33b2751223506adbfb8442e3cf3a",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/2ace7adac2dd33b2751223506adbfb8442e3cf3a",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/2ace7adac2dd33b2751223506adbfb8442e3cf3a"
+        }
+      ]
+    },
+    {
+      "sha": "2ace7adac2dd33b2751223506adbfb8442e3cf3a",
+      "nodeId": "C_kwDOHqRXP9oAKDJhY2U3YWRhYzJkZDMzYjI3NTEyMjM1MDZhZGJmYjg0NDJlM2NmM2E",
+      "commit": {
+        "author": {
+          "name": "Antidote21",
+          "email": "91773314+Antidote21@users.noreply.github.com",
+          "date": "2022-09-03T18:13:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-09-03T18:13:31Z"
+        },
+        "message": "retry: Design Linked List(707) java lang",
+        "tree": {
+          "sha": "41afd34282e469e6f01c793168eff9edd553db68",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/41afd34282e469e6f01c793168eff9edd553db68"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/2ace7adac2dd33b2751223506adbfb8442e3cf3a",
+        "commentCount": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjE5lLCRBK7hj4Ov3rIwAAz3IIAHGKXSV78rJPKg6Y7zY1JpYx\nByy5wGVGIOx3NqXNw0yCSAVgklSbGHKEOFphris803LzMVC+HIVkc2hzxkhiCfgG\nzXxzR+GJplbarh1ppp7jgOHwiSfnWsRIrvxbbhCLzy2QPFzx/N5dHhPfJ6an1pw7\nTcezcuGkwRBf6D1Srq4aYzIgpdO3EGIvmHQHPO6+vxZ8ZabmXKMSi8Yha1GSBWu/\nooxmdpgnawe6yMXhYs8HqAxxgO6zzktMsG+F747KzC+tg19/nlSpdTkExS0gLek1\nQko144rsOXiOXO5hsBe8OKnu1MmbjT4f/hvVC0VQT0VZJd0jYzr97eXin3EZxl4=\n=GvCS\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 41afd34282e469e6f01c793168eff9edd553db68\nparent 0053bee36c12c515df79c1fec2b16ec656d2092e\nauthor Antidote21 <91773314+Antidote21@users.noreply.github.com> 1662228811 +0900\ncommitter GitHub <noreply@github.com> 1662228811 +0900\n\nretry: Design Linked List(707) java lang"
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/2ace7adac2dd33b2751223506adbfb8442e3cf3a",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/2ace7adac2dd33b2751223506adbfb8442e3cf3a",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/2ace7adac2dd33b2751223506adbfb8442e3cf3a/comments",
+      "author": {
+        "login": "Antidote21",
+        "id": 91773314,
+        "nodeId": "U_kgDOBXhZgg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91773314?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/Antidote21",
+        "htmlUrl": "https://github.com/Antidote21",
+        "followersUrl": "https://api.github.com/users/Antidote21/followers",
+        "followingUrl": "https://api.github.com/users/Antidote21/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/Antidote21/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/Antidote21/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/Antidote21/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/Antidote21/orgs",
+        "reposUrl": "https://api.github.com/users/Antidote21/repos",
+        "eventsUrl": "https://api.github.com/users/Antidote21/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/Antidote21/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "nodeId": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/web-flow",
+        "htmlUrl": "https://github.com/web-flow",
+        "followersUrl": "https://api.github.com/users/web-flow/followers",
+        "followingUrl": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/web-flow/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/web-flow/orgs",
+        "reposUrl": "https://api.github.com/users/web-flow/repos",
+        "eventsUrl": "https://api.github.com/users/web-flow/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "0053bee36c12c515df79c1fec2b16ec656d2092e",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/0053bee36c12c515df79c1fec2b16ec656d2092e",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/0053bee36c12c515df79c1fec2b16ec656d2092e"
+        }
+      ]
+    },
+    {
+      "sha": "0053bee36c12c515df79c1fec2b16ec656d2092e",
+      "nodeId": "C_kwDOHqRXP9oAKDAwNTNiZWUzNmMxMmM1MTVkZjc5YzFmZWMyYjE2ZWM2NTZkMjA5MmU",
+      "commit": {
+        "author": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-03T12:12:30Z"
+        },
+        "committer": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-03T12:12:30Z"
+        },
+        "message": "amend README",
+        "tree": {
+          "sha": "780d223c0299ab2e4f1189f02412095c7c5ad30e",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/780d223c0299ab2e4f1189f02412095c7c5ad30e"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/0053bee36c12c515df79c1fec2b16ec656d2092e",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/0053bee36c12c515df79c1fec2b16ec656d2092e",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/0053bee36c12c515df79c1fec2b16ec656d2092e",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/0053bee36c12c515df79c1fec2b16ec656d2092e/comments",
+      "author": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "cce47a012e1f9f5010fbfb81d8305605321a7867",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/cce47a012e1f9f5010fbfb81d8305605321a7867",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/cce47a012e1f9f5010fbfb81d8305605321a7867"
+        }
+      ]
+    },
+    {
+      "sha": "db61a49d6d5c5da4ae5ee58b453f33a813f14986",
+      "nodeId": "C_kwDOHqRXP9oAKGRiNjFhNDlkNmQ1YzVkYTRhZTVlZTU4YjQ1M2YzM2E4MTNmMTQ5ODY",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-03T11:49:41Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-03T11:49:41Z"
+        },
+        "message": "Merge remote-tracking branch 'origin/main' into galaxy4276",
+        "tree": {
+          "sha": "a81c2bb08a50775966ae9bd3209e226413a17834",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/a81c2bb08a50775966ae9bd3209e226413a17834"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/db61a49d6d5c5da4ae5ee58b453f33a813f14986",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/db61a49d6d5c5da4ae5ee58b453f33a813f14986",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/db61a49d6d5c5da4ae5ee58b453f33a813f14986",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/db61a49d6d5c5da4ae5ee58b453f33a813f14986/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "581fedc538030417d01dad93e188066187af8097",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/581fedc538030417d01dad93e188066187af8097",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/581fedc538030417d01dad93e188066187af8097"
+        },
+        {
+          "sha": "cce47a012e1f9f5010fbfb81d8305605321a7867",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/cce47a012e1f9f5010fbfb81d8305605321a7867",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/cce47a012e1f9f5010fbfb81d8305605321a7867"
+        }
+      ]
+    },
+    {
+      "sha": "581fedc538030417d01dad93e188066187af8097",
+      "nodeId": "C_kwDOHqRXP9oAKDU4MWZlZGM1MzgwMzA0MTdkMDFkYWQ5M2UxODgwNjYxODdhZjgwOTc",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-03T11:49:33Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-03T11:49:33Z"
+        },
+        "message": "solved: boj 11721 열 개씩 나눠찍기 java lang solved",
+        "tree": {
+          "sha": "22eea3e8a7d4a46f1c27059db8b7521d4d34df03",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/22eea3e8a7d4a46f1c27059db8b7521d4d34df03"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/581fedc538030417d01dad93e188066187af8097",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/581fedc538030417d01dad93e188066187af8097",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/581fedc538030417d01dad93e188066187af8097",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/581fedc538030417d01dad93e188066187af8097/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "85bda70f1775cdf0161c3eaf5d3fb7a4bb25cb04",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/85bda70f1775cdf0161c3eaf5d3fb7a4bb25cb04",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/85bda70f1775cdf0161c3eaf5d3fb7a4bb25cb04"
+        }
+      ]
+    },
+    {
+      "sha": "85bda70f1775cdf0161c3eaf5d3fb7a4bb25cb04",
+      "nodeId": "C_kwDOHqRXP9oAKDg1YmRhNzBmMTc3NWNkZjAxNjFjM2VhZjVkM2ZiN2E0YmIyNWNiMDQ",
+      "commit": {
+        "author": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-03T11:49:16Z"
+        },
+        "committer": {
+          "name": "최은기",
+          "email": "galaxyhi4276@gmail.com",
+          "date": "2022-09-03T11:49:16Z"
+        },
+        "message": "solved: boj 4949 java lang solved",
+        "tree": {
+          "sha": "39c35d5b083452fbadd583042aa506af81bfd70b",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/39c35d5b083452fbadd583042aa506af81bfd70b"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/85bda70f1775cdf0161c3eaf5d3fb7a4bb25cb04",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/85bda70f1775cdf0161c3eaf5d3fb7a4bb25cb04",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/85bda70f1775cdf0161c3eaf5d3fb7a4bb25cb04",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/85bda70f1775cdf0161c3eaf5d3fb7a4bb25cb04/comments",
+      "author": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "galaxy4276",
+        "id": 50310464,
+        "nodeId": "MDQ6VXNlcjUwMzEwNDY0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50310464?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/galaxy4276",
+        "htmlUrl": "https://github.com/galaxy4276",
+        "followersUrl": "https://api.github.com/users/galaxy4276/followers",
+        "followingUrl": "https://api.github.com/users/galaxy4276/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/galaxy4276/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/galaxy4276/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/galaxy4276/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/galaxy4276/orgs",
+        "reposUrl": "https://api.github.com/users/galaxy4276/repos",
+        "eventsUrl": "https://api.github.com/users/galaxy4276/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/galaxy4276/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "432c16d6b0509b73ad3008ccbab428d90b383321",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/432c16d6b0509b73ad3008ccbab428d90b383321",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/432c16d6b0509b73ad3008ccbab428d90b383321"
+        }
+      ]
+    },
+    {
+      "sha": "cce47a012e1f9f5010fbfb81d8305605321a7867",
+      "nodeId": "C_kwDOHqRXP9oAKGNjZTQ3YTAxMmUxZjlmNTAxMGZiZmI4MWQ4MzA1NjA1MzIxYTc4Njc",
+      "commit": {
+        "author": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-03T10:28:33Z"
+        },
+        "committer": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-03T10:28:33Z"
+        },
+        "message": "sovle: Replace All Digits with Characters(1844) python lang",
+        "tree": {
+          "sha": "0979cec9a4f9a43b1b64da484970fb570719c704",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/0979cec9a4f9a43b1b64da484970fb570719c704"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/cce47a012e1f9f5010fbfb81d8305605321a7867",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/cce47a012e1f9f5010fbfb81d8305605321a7867",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/cce47a012e1f9f5010fbfb81d8305605321a7867",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/cce47a012e1f9f5010fbfb81d8305605321a7867/comments",
+      "author": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "0da7df1507dd640945ed201b6ce5c132d9a85a92",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/0da7df1507dd640945ed201b6ce5c132d9a85a92",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/0da7df1507dd640945ed201b6ce5c132d9a85a92"
+        }
+      ]
+    },
+    {
+      "sha": "0da7df1507dd640945ed201b6ce5c132d9a85a92",
+      "nodeId": "C_kwDOHqRXP9oAKDBkYTdkZjE1MDdkZDY0MDk0NWVkMjAxYjZjZTVjMTMyZDlhODVhOTI",
+      "commit": {
+        "author": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-03T10:13:34Z"
+        },
+        "committer": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-03T10:13:34Z"
+        },
+        "message": "solve: Maximum 69 Number(1323) python lang",
+        "tree": {
+          "sha": "4cbdf3a67f063369ae4c7b4a2fe135d8cc88e331",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/4cbdf3a67f063369ae4c7b4a2fe135d8cc88e331"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/0da7df1507dd640945ed201b6ce5c132d9a85a92",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/0da7df1507dd640945ed201b6ce5c132d9a85a92",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/0da7df1507dd640945ed201b6ce5c132d9a85a92",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/0da7df1507dd640945ed201b6ce5c132d9a85a92/comments",
+      "author": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "0eebb9ac859591eaef70562d0ac225961ff75b03",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/0eebb9ac859591eaef70562d0ac225961ff75b03",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/0eebb9ac859591eaef70562d0ac225961ff75b03"
+        }
+      ]
+    },
+    {
+      "sha": "0eebb9ac859591eaef70562d0ac225961ff75b03",
+      "nodeId": "C_kwDOHqRXP9oAKDBlZWJiOWFjODU5NTkxZWFlZjcwNTYyZDBhYzIyNTk2MWZmNzViMDM",
+      "commit": {
+        "author": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-03T10:13:10Z"
+        },
+        "committer": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-03T10:13:10Z"
+        },
+        "message": "solve: Number of Steps tot Reduce a Number to Zero (1342) python lang",
+        "tree": {
+          "sha": "7550b73709157cf783ce2140351483a294633e5c",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/7550b73709157cf783ce2140351483a294633e5c"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/0eebb9ac859591eaef70562d0ac225961ff75b03",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/0eebb9ac859591eaef70562d0ac225961ff75b03",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/0eebb9ac859591eaef70562d0ac225961ff75b03",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/0eebb9ac859591eaef70562d0ac225961ff75b03/comments",
+      "author": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "609d4123792de44b577eba0e03d29756bb857917",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/609d4123792de44b577eba0e03d29756bb857917",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/609d4123792de44b577eba0e03d29756bb857917"
+        }
+      ]
+    },
+    {
+      "sha": "609d4123792de44b577eba0e03d29756bb857917",
+      "nodeId": "C_kwDOHqRXP9oAKDYwOWQ0MTIzNzkyZGU0NGI1NzdlYmEwZTAzZDI5NzU2YmI4NTc5MTc",
+      "commit": {
+        "author": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-03T10:12:42Z"
+        },
+        "committer": {
+          "name": "minesp",
+          "email": "lhd000721@gmail.com",
+          "date": "2022-09-03T10:12:42Z"
+        },
+        "message": "solve: To Lower Case(709) python lang",
+        "tree": {
+          "sha": "4171dd7328cc10dff2857cfe2ac8b851c02da509",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/4171dd7328cc10dff2857cfe2ac8b851c02da509"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/609d4123792de44b577eba0e03d29756bb857917",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/609d4123792de44b577eba0e03d29756bb857917",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/609d4123792de44b577eba0e03d29756bb857917",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/609d4123792de44b577eba0e03d29756bb857917/comments",
+      "author": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "minesp3164",
+        "id": 64721119,
+        "nodeId": "MDQ6VXNlcjY0NzIxMTE5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64721119?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/minesp3164",
+        "htmlUrl": "https://github.com/minesp3164",
+        "followersUrl": "https://api.github.com/users/minesp3164/followers",
+        "followingUrl": "https://api.github.com/users/minesp3164/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/minesp3164/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/minesp3164/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/minesp3164/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/minesp3164/orgs",
+        "reposUrl": "https://api.github.com/users/minesp3164/repos",
+        "eventsUrl": "https://api.github.com/users/minesp3164/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/minesp3164/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "1b9f1b8338377fa7c2a538a53a9d10253b1e9f91",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/1b9f1b8338377fa7c2a538a53a9d10253b1e9f91",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/1b9f1b8338377fa7c2a538a53a9d10253b1e9f91"
+        }
+      ]
+    },
+    {
+      "sha": "1b9f1b8338377fa7c2a538a53a9d10253b1e9f91",
+      "nodeId": "C_kwDOHqRXP9oAKDFiOWYxYjgzMzgzNzdmYTdjMmE1MzhhNTNhOWQxMDI1M2IxZTlmOTE",
+      "commit": {
+        "author": {
+          "name": "Antidote21",
+          "email": "91773314+Antidote21@users.noreply.github.com",
+          "date": "2022-09-02T14:35:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-09-02T14:35:56Z"
+        },
+        "message": "retry: Rotate Array(189) java lang",
+        "tree": {
+          "sha": "bca9ed524a748d7b1abe766de8741fbc6ec69ee2",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/bca9ed524a748d7b1abe766de8741fbc6ec69ee2"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/1b9f1b8338377fa7c2a538a53a9d10253b1e9f91",
+        "commentCount": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjEhTMCRBK7hj4Ov3rIwAAZYAIAJ20MVGahhfVv9SanvwB2O7w\nr6pnZ7q3CW57faERAuBnfJHs+FYhTXQmxf75kWcWBH37hdYeF0Dw8+uHRMMxHWZl\nnrFTn9+mqw/10WlXcF/R8PxOCrcd4XFUOLpwGfoX7TjbGtmbUqkqTfd9TbGEnHop\nZMvFQpULtDyxCWG//8dkJ/u1Z86DZlfY+lzmXgy32Q61ZWje5+C4241f0PiHqasb\nnZcdPntP0ZlT7uAiZoUgVWw3qAmDyLAqleD3UmoPUGfKXUrABTGVUdrbKrdcO7qA\nBYhwOpDN25ngOsnETHPRwtY7xqf82EeLHWysSkYIu71Cbscizmbmkdh85wzbl5E=\n=hZlQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bca9ed524a748d7b1abe766de8741fbc6ec69ee2\nparent 440932987aecdcf9817a9ed3c3a48199498ffefe\nauthor Antidote21 <91773314+Antidote21@users.noreply.github.com> 1662129356 +0900\ncommitter GitHub <noreply@github.com> 1662129356 +0900\n\nretry: Rotate Array(189) java lang"
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/1b9f1b8338377fa7c2a538a53a9d10253b1e9f91",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/1b9f1b8338377fa7c2a538a53a9d10253b1e9f91",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/1b9f1b8338377fa7c2a538a53a9d10253b1e9f91/comments",
+      "author": {
+        "login": "Antidote21",
+        "id": 91773314,
+        "nodeId": "U_kgDOBXhZgg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91773314?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/Antidote21",
+        "htmlUrl": "https://github.com/Antidote21",
+        "followersUrl": "https://api.github.com/users/Antidote21/followers",
+        "followingUrl": "https://api.github.com/users/Antidote21/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/Antidote21/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/Antidote21/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/Antidote21/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/Antidote21/orgs",
+        "reposUrl": "https://api.github.com/users/Antidote21/repos",
+        "eventsUrl": "https://api.github.com/users/Antidote21/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/Antidote21/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "nodeId": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/web-flow",
+        "htmlUrl": "https://github.com/web-flow",
+        "followersUrl": "https://api.github.com/users/web-flow/followers",
+        "followingUrl": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/web-flow/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/web-flow/orgs",
+        "reposUrl": "https://api.github.com/users/web-flow/repos",
+        "eventsUrl": "https://api.github.com/users/web-flow/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "440932987aecdcf9817a9ed3c3a48199498ffefe",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/440932987aecdcf9817a9ed3c3a48199498ffefe",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/440932987aecdcf9817a9ed3c3a48199498ffefe"
+        }
+      ]
+    },
+    {
+      "sha": "440932987aecdcf9817a9ed3c3a48199498ffefe",
+      "nodeId": "C_kwDOHqRXP9oAKDQ0MDkzMjk4N2FlY2RjZjk4MTdhOWVkM2MzYTQ4MTk5NDk4ZmZlZmU",
+      "commit": {
+        "author": {
+          "name": "Antidote21",
+          "email": "91773314+Antidote21@users.noreply.github.com",
+          "date": "2022-09-02T14:30:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-09-02T14:30:58Z"
+        },
+        "message": "solve: Reverse Words in a String(151) java lang",
+        "tree": {
+          "sha": "8d065cc219fe8ede0ce566436497a7c1fcab41e2",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/8d065cc219fe8ede0ce566436497a7c1fcab41e2"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/440932987aecdcf9817a9ed3c3a48199498ffefe",
+        "commentCount": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjEhOiCRBK7hj4Ov3rIwAAd7MIAK3Lf8AS8djubEhw18hYOq9D\niG5S6Z6xNsUjaT0FZQb4pqrFffeZXl4OYLuGbxmdxbeJkQgFYQOJCOL1RqKWAbkR\nE4dZnYIDDURj9v8uW5ZK0hFjv53rtQyOQ/DRan5seOQyTfCZabKzZmeB4YTmm/2I\nOr6TZc5BqYAEfDk84Uxs1nXz4hMLsrnt3TsBV1tEee9vKuzEuV6KTvC7OMVx7Ca8\nX79Eqxa+t5zQrUAZrdjW49+0ZAQhsC0UHy9uVI9vnFLwNP7GgIf0HrpM6ViJZ/46\npqDvaTSs8l351fOYmvz9F8MNsDH1xCTb03H9O0reCju1jet75H2hK4256zSeieQ=\n=t0VL\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8d065cc219fe8ede0ce566436497a7c1fcab41e2\nparent efec7ea898dd9a373c9de03f96c1ed19fb6b9941\nauthor Antidote21 <91773314+Antidote21@users.noreply.github.com> 1662129058 +0900\ncommitter GitHub <noreply@github.com> 1662129058 +0900\n\nsolve: Reverse Words in a String(151) java lang"
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/440932987aecdcf9817a9ed3c3a48199498ffefe",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/440932987aecdcf9817a9ed3c3a48199498ffefe",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/440932987aecdcf9817a9ed3c3a48199498ffefe/comments",
+      "author": {
+        "login": "Antidote21",
+        "id": 91773314,
+        "nodeId": "U_kgDOBXhZgg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91773314?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/Antidote21",
+        "htmlUrl": "https://github.com/Antidote21",
+        "followersUrl": "https://api.github.com/users/Antidote21/followers",
+        "followingUrl": "https://api.github.com/users/Antidote21/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/Antidote21/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/Antidote21/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/Antidote21/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/Antidote21/orgs",
+        "reposUrl": "https://api.github.com/users/Antidote21/repos",
+        "eventsUrl": "https://api.github.com/users/Antidote21/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/Antidote21/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "nodeId": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/web-flow",
+        "htmlUrl": "https://github.com/web-flow",
+        "followersUrl": "https://api.github.com/users/web-flow/followers",
+        "followingUrl": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/web-flow/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/web-flow/orgs",
+        "reposUrl": "https://api.github.com/users/web-flow/repos",
+        "eventsUrl": "https://api.github.com/users/web-flow/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "efec7ea898dd9a373c9de03f96c1ed19fb6b9941",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/efec7ea898dd9a373c9de03f96c1ed19fb6b9941",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/efec7ea898dd9a373c9de03f96c1ed19fb6b9941"
+        }
+      ]
+    },
+    {
+      "sha": "efec7ea898dd9a373c9de03f96c1ed19fb6b9941",
+      "nodeId": "C_kwDOHqRXP9oAKGVmZWM3ZWE4OThkZDlhMzczYzlkZTAzZjk2YzFlZDE5ZmI2Yjk5NDE",
+      "commit": {
+        "author": {
+          "name": "Baek Dongjae",
+          "email": "pandora2948@naver.com",
+          "date": "2022-09-02T00:30:34Z"
+        },
+        "committer": {
+          "name": "Baek Dongjae",
+          "email": "pandora2948@naver.com",
+          "date": "2022-09-02T00:30:34Z"
+        },
+        "message": "<python> (1302) class3 solved",
+        "tree": {
+          "sha": "7d7012d013f78a230dd3abf07a40bb1b78246000",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/trees/7d7012d013f78a230dd3abf07a40bb1b78246000"
+        },
+        "url": "https://api.github.com/repos/galaxy4276/algorithm-study/git/commits/efec7ea898dd9a373c9de03f96c1ed19fb6b9941",
+        "commentCount": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/efec7ea898dd9a373c9de03f96c1ed19fb6b9941",
+      "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/efec7ea898dd9a373c9de03f96c1ed19fb6b9941",
+      "commentsUrl": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/efec7ea898dd9a373c9de03f96c1ed19fb6b9941/comments",
+      "author": {
+        "login": "pandora2948",
+        "id": 80594323,
+        "nodeId": "MDQ6VXNlcjgwNTk0MzIz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80594323?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/pandora2948",
+        "htmlUrl": "https://github.com/pandora2948",
+        "followersUrl": "https://api.github.com/users/pandora2948/followers",
+        "followingUrl": "https://api.github.com/users/pandora2948/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/pandora2948/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/pandora2948/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/pandora2948/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/pandora2948/orgs",
+        "reposUrl": "https://api.github.com/users/pandora2948/repos",
+        "eventsUrl": "https://api.github.com/users/pandora2948/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/pandora2948/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "committer": {
+        "login": "pandora2948",
+        "id": 80594323,
+        "nodeId": "MDQ6VXNlcjgwNTk0MzIz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80594323?v=4",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/pandora2948",
+        "htmlUrl": "https://github.com/pandora2948",
+        "followersUrl": "https://api.github.com/users/pandora2948/followers",
+        "followingUrl": "https://api.github.com/users/pandora2948/following{/other_user}",
+        "gistsUrl": "https://api.github.com/users/pandora2948/gists{/gist_id}",
+        "starredUrl": "https://api.github.com/users/pandora2948/starred{/owner}{/repo}",
+        "subscriptionsUrl": "https://api.github.com/users/pandora2948/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/pandora2948/orgs",
+        "reposUrl": "https://api.github.com/users/pandora2948/repos",
+        "eventsUrl": "https://api.github.com/users/pandora2948/events{/privacy}",
+        "receivedEventsUrl": "https://api.github.com/users/pandora2948/received_events",
+        "type": "User",
+        "siteAdmin": false
+      },
+      "parents": [
+        {
+          "sha": "9b9edd33cea73c492a2c64e402e0445f2580f96b",
+          "url": "https://api.github.com/repos/galaxy4276/algorithm-study/commits/9b9edd33cea73c492a2c64e402e0445f2580f96b",
+          "htmlUrl": "https://github.com/galaxy4276/algorithm-study/commit/9b9edd33cea73c492a2c64e402e0445f2580f96b"
+        }
+      ]
+    }
+  ]
+}
