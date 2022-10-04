@@ -1,4 +1,4 @@
-import { Configuration, ProvidePlugin } from 'webpack';
+import { Configuration, EnvironmentPlugin } from 'webpack';
 import WebpackDevServer from 'webpack-dev-server';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import path from 'path';
@@ -66,7 +66,7 @@ const webpackConfig: WebPackConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: htmlTemplateDir }),
-    new ProvidePlugin({ React: 'react' }),
+    new EnvironmentPlugin(['REACT_APP_GITHUB_TOKEN']),
   ],
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
