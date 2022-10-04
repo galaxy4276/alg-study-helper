@@ -7,14 +7,20 @@ import path from 'path';
 const entryDir = path.resolve(__dirname, 'src', 'index.tsx');
 const htmlTemplateDir =
   path.resolve(__dirname, 'src', 'public', 'index.html');
+type WebPackConfig = Configuration & WebpackDevServer.Configuration;
+const setOutputByEnv = () => {
+  if (process.env.mode === 'development')
+    return {
+      filename: '[name].[contenthash].js',
+      publicPath: '/',
+    };
+  return {};
+};
 
-const webpackConfig: Configuration & WebpackDevServer.Configuration = {
-  mode: 'development',
+
+const webpackConfig: WebPackConfig = {
   entry: entryDir,
-  output: {
-    filename: '[name].[contenthash].js',
-    publicPath: '/',
-  },
+  output: setOutputByEnv(),
   module: {
     rules: [
       {
@@ -49,7 +55,7 @@ const webpackConfig: Configuration & WebpackDevServer.Configuration = {
     ],
   },
   devServer: {
-    port: 3000,
+    port: 3001,
     hot: true,
     open: false,
     compress: true,
@@ -59,14 +65,14 @@ const webpackConfig: Configuration & WebpackDevServer.Configuration = {
     new ProvidePlugin({ React: 'react' }),
   ],
   resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
+    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
     alias: {
-      '@src': path.resolve(__dirname, 'src'),
-      '@layouts': path.resolve(__dirname, 'src', 'layouts'),
-      '@components': path.resolve(__dirname, 'src', 'components'),
-      '@public': path.resolve(__dirname, 'src', 'public'),
+      '@src': path.resolve(__dirname, 'src/'),
+      '@layouts': path.resolve(__dirname, 'src', 'layouts/'),
+      '@components': path.resolve(__dirname, 'src', 'components/'),
+      '@public': path.resolve(__dirname, 'src', 'public/'),
     },
-    extensions: ['', 'js', 'jsx', 'ts', 'tsx'],
-    modules: [path.resolve(__dirname, 'src'), 'node_modules']
   },
 };
 
