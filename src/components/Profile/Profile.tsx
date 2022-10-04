@@ -1,6 +1,7 @@
 import React from 'react';
 import { Problem } from '@src/components/Problem/Problem';
 import { Avatar } from './Avatar';
+import { Goals } from '@src/components/Profile/Goals';
 
 
 export const Profile: React.FC = () =>(
@@ -8,14 +9,12 @@ export const Profile: React.FC = () =>(
 		<Avatar/>
 			<div className="relative">
 			<div className="font-bold flex">
-				nickname
+				minesp3164
 			</div>
 			<div className="Stiker flex">
-				Left goals: 1
 			</div>
 			<div>
-				<i className="fa-solid fa-circle-check w-5 h-5 "/>
-				<i className="fa-solid fa-circle-xmark w-5 h-5 "/>
+				<Goals></Goals>
 			</div>
 			<div className="flex">Current solved</div>
 			<Problem/>
