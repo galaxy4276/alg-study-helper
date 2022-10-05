@@ -1,7 +1,6 @@
 import React from 'react';
 import { GithubCommitResponse } from '@src/apis/types';
 import { LangIcon } from '@src/components/Problem/LangIcon';
-import { isSolvedCurrentSprint } from '@src/components/Profile/utils';
 
 
 const langs = [
