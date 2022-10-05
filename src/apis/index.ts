@@ -5,26 +5,30 @@ import type { GithubCommitResponse } from './types';
 import userList, { userListType } from '@src/apis/user-list';
 
 
-const githubAccessToken = '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';
+const githubAccessToken = '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';
 
 
 export const getSprintStartedDate = () => {
   const paramDate = new Date(Date.now());
   const day = paramDate.getDay();
   const diff = paramDate.getDate() - day + (day == 0 ? -6 : 1);
-  return new Date(paramDate.setDate(diff)).toISOString().substring(0, 10);
+  return new Date(paramDate.setDate(diff)); // .toISOString().substring(0, 10);
 };
 
 export const getSprintEndDate = () => {
   const paramDate = new Date(Date.now());
   const day = paramDate.getDay();
   const diff = paramDate.getDate() - day + (day == 0 ? -6 : 1) + 6;
-  return new Date(paramDate.setDate(diff)).toISOString().substring(0, 10);
+  return new Date(paramDate.setDate(diff)); // .toISOString().substring(0, 10);
 };
+
+export const dateToIsoString = (date: Date) => date.toISOString().substring(0, 10);
 
 
 const getApiUrl = (userBranchName: string) =>
-  `https://api.github.com/repos/galaxy4276/algorithm-study/commits?sha=${userBranchName}&q=created:${getSprintStartedDate()}..${getSprintEndDate()}`;
+  `
+    https://api.github.com/repos/galaxy4276/algorithm-study/commits?sha=${userBranchName}&q=created:${dateToIsoString(getSprintStartedDate())}..${dateToIsoString(getSprintEndDate())}
+  `;
 
 
 const parseAxiosResponse =
