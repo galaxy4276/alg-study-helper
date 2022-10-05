@@ -18,7 +18,7 @@ const getSimpleDate = (date: string) =>
 	new Date(date).toISOString().substring(0, 10);
 
 const getSolvedLang = (message: string) =>
-	langs.find(lang => message.includes(lang));
+	langs.find(lang => message.toLowerCase().includes(lang));
 
 const sliceMessageRatherThanScreenSize = (message: string) =>
 	(message.length > 10)
@@ -28,8 +28,8 @@ const sliceMessageRatherThanScreenSize = (message: string) =>
 export const TableItem: React.FC<TableItemProps> = ({ commit }) => {
 	const committedDate = getSimpleDate(commit.commit.author.date);
 	const lang = getSolvedLang(commit.commit.message) || '?';
-	const solution = sliceMessageRatherThanScreenSize(commit.commit.message);
-		// .match(/([\s{1,1}|[a-zA-Z가-힣0-9]+\s{1,1})/)[0] || '알 수 없음'
+	const solutionMatcher = sliceMessageRatherThanScreenSize(commit.commit.message)
+		.match(/([\s{1,1}|[a-zA-Z가-힣0-9]+\s{1,1})/);
 
 	const onClickSolvedCol = () =>
 		window.open(commit.htmlUrl);
@@ -45,7 +45,7 @@ export const TableItem: React.FC<TableItemProps> = ({ commit }) => {
 		>
 			<div className="flex items-center">
 				<span>
-					{ solution } ({ lang })
+					{ solutionMatcher && solutionMatcher[0] || '알 수 없음' } ({ lang })
 				</span>
 				<i className="fa-brands fa-python mx-1"></i>
 			</div>
