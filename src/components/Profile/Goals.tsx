@@ -15,14 +15,26 @@ export const Goals: React.FC<GoalProps> = ({ solvedCount, username }) => {
 	return(
 		<div>
 			<b className="px-1 py-3">
-				Last Goals: {todoCount <0 ? Math.abs(todoCount): 0}
+				Last Goals:
+				{
+					todoCount < 0
+						? Math.abs(todoCount)
+						: 0
+				}
 			</b>
-			<h3 className="text-slate-900 font-bold text-xl py-2.5">
-				{getFillMeaninglessArray(solvedCount).map(() =>
-					<i className="fa-solid fa-circle-check text-green-300 "/> )}
-				{todoCount < 0 ? getFillMeaninglessArray(Math.abs(todoCount)).map(() =>
-					<i className="fa-solid fa-circle-xmark text-rose-500"/>): null}
-			</h3>
+			<section className="flex text-slate-900 font-bold text-xl py-2.5 gap-x-1">
+				{getFillMeaninglessArray(solvedCount)
+					.map(() =>
+						<i className="fa-solid fa-circle-check text-[#4ABB38]"/> )
+				}
+				{
+					todoCount < 0
+						? getFillMeaninglessArray(Math.abs(todoCount))
+							.map(() =>
+								<i className="fa-solid fa-circle-xmark text-[#CB3535]"/>)
+						: null
+				}
+			</section>
 		</div>
 	)
 };
