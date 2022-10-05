@@ -17,5 +17,21 @@ export type userListType =
   'minesp' |
   'pandora2948';
 
+export const userNameList = [
+  'galaxy4276',
+  'Antidote21',
+  'ChanSuy',
+  'minesp3164',
+  'pandora2948',
+];
+
+export const algStudyUserInfo = {
+  'galaxy4276': 2,
+  'Antidote21': 2,
+  'ChanSuy': 3,
+  'minesp3164': 2,
+  'pandora2948': 1,
+};
+
 
 export default userList;

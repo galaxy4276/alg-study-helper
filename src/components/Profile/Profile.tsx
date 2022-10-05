@@ -4,6 +4,7 @@ import { Problem } from '@src/components/Problem/Problem';
 import { Goals } from './Goals';
 import { Avatar } from './Avatar';
 import { GithubCommitResponse } from '@src/apis/types';
+import { algStudyUserInfo } from '@src/apis/user-list';
 
 
 interface ProfileProps extends HTMLAttributes<HTMLDivElement> {
@@ -22,7 +23,10 @@ export const Profile: React.FC<ProfileProps> = ({ data, solvedCount }) => {
 				<span className="text-slate-700 text-xl">{ author.login }</span>
 			</div>
 			<div className="Stiker flex" />
-			<Goals />
+			<Goals
+				username={author.login as keyof typeof algStudyUserInfo}
+				solvedCount={solvedCount}
+			/>
 			<Problem commits={data} />
 		</article>
 	);
