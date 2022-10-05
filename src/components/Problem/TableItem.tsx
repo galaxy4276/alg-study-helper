@@ -25,11 +25,27 @@ const sliceMessageRatherThanScreenSize = (message: string) =>
 		? message.substring(0, 10) + '..'
 		: message;
 
+const removeMessageTag = (message: string) => {
+	if (message == '알 수 없음') return message;
+	if (message.includes(':')) {
+		const index = message.indexOf(':');
+		return message.slice(index + 1, message.length - 1);
+	}
+	return message.slice(1, message.length - 1);
+};
+
+const validateSolution = (message: string) => {
+	const regex = /(?:\[)([\w가-힣0-9\s]+)(?:\])/g;
+	const regexArray = message.match(regex) || ['알 수 없음'];
+	return removeMessageTag(regexArray[0]);
+}
+
+
 export const TableItem: React.FC<TableItemProps> = ({ commit }) => {
 	const committedDate = getSimpleDate(commit.commit.author.date);
 	const lang = getSolvedLang(commit.commit.message) || '?';
-	const solutionMatcher = sliceMessageRatherThanScreenSize(commit.commit.message)
-		.match(/([\s{1,1}|[a-zA-Z가-힣0-9]+\s{1,1})/);
+	const solution = validateSolution(commit.commit.message);
+	console.log(solution)
 
 	const onClickSolvedCol = () =>
 		window.open(commit.htmlUrl);
@@ -70,13 +86,9 @@ export const TableItem: React.FC<TableItemProps> = ({ commit }) => {
 				<i className="fa-brands fa-python mx-1"></i>
 			</div>
 
-			<div className="flex items-center">
-			<span className="hidden xl:block">문제 해결 날짜:&nbsp;</span>
 			<span>
 				{ committedDate }
 			</span>
-			</div>
-
 		</div>
 	)
 };
