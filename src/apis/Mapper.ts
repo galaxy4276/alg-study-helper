@@ -24,5 +24,4 @@ class CommittedListMapper {
   }
 }
 
-
 export default CommittedListMapper;

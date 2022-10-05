@@ -22,7 +22,7 @@ export const Profile: React.FC<ProfileProps> = ({ data }) => {
 			</div>
 			<div className="Stiker flex" />
 			<Goals />
-			<Problem />
+			<Problem commits={data} />
 		</article>
 	);
 };
