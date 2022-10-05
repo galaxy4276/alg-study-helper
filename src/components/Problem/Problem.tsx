@@ -1,11 +1,24 @@
 import React from 'react';
 import { TableItem } from './TableItem';
 import './styles.css';
+import { GithubCommitResponse } from '@src/apis/types';
+import { nanoid } from 'nanoid';
 
 
-export const Problem: React.FC = () => (
-	<section className="shadow-md overflow-hidden">
-		<h3 className="text-slate-800 font-semibold pb-2.5">Current solved</h3>
-		{ new Array(5).fill(0).map(() => <TableItem />) }
-	</section>
-);
+interface ProblemProps {
+	commits: GithubCommitResponse[];
+}
+
+export const Problem: React.FC<ProblemProps> = ({ commits }) => {
+	const slicedCommits = commits.slice(0, 5);
+
+	return (
+		<section className="shadow-md overflow-hidden">
+			<h3 className="text-slate-800 font-semibold pb-2.5">Current solved</h3>
+			{
+				slicedCommits
+					.map(commit => <TableItem key={nanoid()} commit={commit} />)
+			}
+		</section>
+	);
+}
