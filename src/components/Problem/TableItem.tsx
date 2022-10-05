@@ -61,7 +61,7 @@ export const TableItem: React.FC<TableItemProps> = ({ commit }) => {
 		>
 			<div className="flex items-center">
 				<span>
-					{ solutionMatcher && solutionMatcher[0] || '알 수 없음' }
+					{ solution || '알 수 없음' }
 
 					<div className="flex">
 					{lang == 'java' ? <img
