@@ -1,33 +1,37 @@
 import { createContext, useContext, useLayoutEffect, useState } from 'react';
 
-import { GithubCommitResponse } from '@src/apis/types';
-import { userListType } from '@src/apis/user-list';
 import { getAllUserCommittedList } from '@src/apis';
 import CommittedListMapper from '@src/apis/mapper';
 
 
-export type CommittedListProps = {
-  [p in keyof userListType | string]: GithubCommitResponse[];
-};
-
-export type HookProps = {
+type HookProps = {
   factory: CommittedListMapper;
   isLoading: boolean;
 }
 
-
-export const CommittedListContext = createContext<HookProps | null>(null);
-
-
-export const useCommittedListContext = () => {
-  const state = useContext(CommittedListContext);
-  if (!state) throw new Error('committedList state is not exists');
-  return state;
-};
+export type {
+  HookProps,
+}
 
 
-export const useFetchGithubApi = () => {
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+const CommittedListContext = createContext<HookProps>({
+  factory: new CommittedListMapper([]),
+  isLoading: true,
+});
+
+
+/**
+ * @desc CommittedListContext 의 Consumer hook 입니다.
+ */
+const useCommittedListContext = () =>
+   useContext(CommittedListContext);
+
+
+/**
+ * @desc 모든 사용자의 최신일 순 Commit 데이터를 가져옵니다.
+ */
+const useFetchGithubApi = () => {
+  const [isLoading, setIsLoading] = useState<boolean>(true);
   const [factory, setFactory] = useState<CommittedListMapper>(
     new CommittedListMapper([])
   );
@@ -45,4 +49,25 @@ export const useFetchGithubApi = () => {
     factory,
     isLoading,
   };
+};
+
+
+/**
+ * @desc useFetchGithubApi 의 반환값과 Context Provider 컴포넌트를 제공합니다.
+ */
+const useCommittedList = () => {
+  const state = useFetchGithubApi();
+  return {
+    Provider: CommittedListContext.Provider,
+    ...state,
+  };
+};
+
+
+export default useCommittedList;
+
+export {
+  useFetchGithubApi,
+  CommittedListContext,
+  useCommittedListContext,
 };

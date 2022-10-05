@@ -1,22 +1,28 @@
-import React from 'react';
+import React, { HTMLAttributes } from 'react';
 
 import { Problem } from '@src/components/Problem/Problem';
 import { Goals } from './Goals';
 import { Avatar } from './Avatar';
-import { useCommittedListContext } from '@src/hooks/use-committed-list.hooks';
+import { GithubCommitResponse } from '@src/apis/types';
 
 
-export const Profile: React.FC = () => {
-	const { factory } = useCommittedListContext();
+interface ProfileProps extends HTMLAttributes<HTMLDivElement> {
+	data: GithubCommitResponse[];
+}
 
-	<article className="my-5 p-5 shadow-md flex flex-col w-full relative">
-		<Avatar />
-		<div className="mt-20" />
-		<div className="self-center">
-			<span className="text-slate-700 text-xl">minesp3164</span>
-		</div>
-		<div className="Stiker flex" />
-		<Goals />
-		<Problem />
-	</article>
-);
+
+export const Profile: React.FC<ProfileProps> = ({ data }) => {
+	const { author } = data[0];
+
+	return (
+		<article className="my-5 p-5 shadow-md flex flex-col w-full bg-white relative">
+			<Avatar url={author.avatarUrl} />
+			<div className="self-center">
+				<span className="text-slate-700 text-xl">{ author.login }</span>
+			</div>
+			<div className="Stiker flex" />
+			<Goals />
+			<Problem commits={data} />
+		</article>
+	);
+};

@@ -20,9 +20,8 @@ class CommittedListMapper {
   public getMap() { return this.map; }
 
   public getUserCommittedList(user: userListType) {
-    return this.map.get(user);
+    return this.map.get(user) as GithubCommitResponse[];
   }
 }
-
 
 export default CommittedListMapper;
