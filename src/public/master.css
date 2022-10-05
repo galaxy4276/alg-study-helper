@@ -33,5 +33,9 @@ html, body {
 }
 
 .quote {
-  @apply bg-lime-50 rounded-xl px-2.5 py-4 shadow-sm;
+  @apply bg-amber-50 rounded-xl px-2.5 py-4 shadow-sm;
+}
+
+.circle-avatar {
+  @apply w-32 h-32 rounded-full shadow-md;
 }
