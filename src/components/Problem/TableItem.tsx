@@ -63,7 +63,8 @@ export const TableItem: React.FC<TableItemProps> = ({ commit }) => {
 				<span>
 					{ solution || '알 수 없음' }
 
-					<div className="flex">
+				</span>
+					<div className="px-1 shadow-sm">
 					{lang == 'java' ? <img
 						src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAMAAAD0WI85AAAAtFBMVEX////gAAD87u7kP0Tre3798fEAZrPxqqv++fnlR0v75ucAYbHV4O4AZLLhAA776eriER0AW672+vz0vr/ulZb53t7409Pc5/Lv9PkATalnksaBo87siorwoKL3zs/52NnmTVLzs7Sowt7l7vbG1ejjLDL2x8joaWrqcXPnX2HjJSzmV1jkOTvshIbiHyWBqdFXgr+atNdOiME+gL4AQqZHerwRcLd1msoAU6u3zOQneLqVq9Ku5LkwAAAEdUlEQVR4nO2bC3OqOhDHWRCkiOFRUA74BusLteAVav3+3+tmQ9ux5/Y8OjiN6eU3oyLIzH9nd5MNWSWpoaGhoaGhoeF/jM5bwLVoy7wVXIn2PW8FV2K65a3gSngL3gquxPybeKQH3yNH9NXa4K3hKgzA4y3hKgxhzVvCVRgCGfHWcAX0Bbxkuj4SOVGMDUAbD9ThYixwxfUAYKM/jAEMeWupQxsIDrx6m6Q+by118IAotOxVF7AUOKrYcKXQD2sOLd5SauETe+ezYWvCW0o9VoSNV1OAHm8p9bDttSUxe1TeUuqxIytMcdsGkSdCyhaYIalNlryl1KMHKT5y8MAWvdbyWJHl72hwCT2N0KhK8d2DHQx4S6mHZbMF1YbYisVbSz0MGNN3a22nghsi+Xc4hyxhxVtIbXys3rcCzyRBP+mzA4wpZfpyNt6Hj6HJTdSn6Wd5OYvfvk4fXo8Ceu3gzLiI+jxmrh3iyxOs1HLjft9lB44Wf3TbzRH842iHmRkH7BvVbyazLAqPRVadkfKOIC4JsjJ/1pynH8iToxXHvNyfgrfrB+3EUd3ncAPqiIp+HAfu5bXYKYJf3XeL/DIPckcch9CEL/rvT7x5JRRm0EKCohPOEprwLg0ymuzn8FCyeIqPuUDTCCV57D45TofhULRDmLlSPAsT3so+i2ue9uHhuSiKPIyoc5g/+mJ545sRCBdEH2MWufk6Xbj9k0gj1XuSblfTtOKQ588FPehqwppi5k5Hq+h2nGKfuH++56Zwk2yfVfmRZFFUllGUvTNCjPrEnR1D8/dSyy+SUov44Dz3f/sLM9p/kZZanLo0L/IZLXnfV7xugOXw6Zw/RrSYDARYWJmz8pkuRBw6XIWYHkhZhvmx6P7QwsxE85JcjDTBeQPXhFEZhmFOX2W0z+iKkV2Kk6gTijN+ue5/tboB9dbjsdgLVW9Rj2T7fXQ+Z9n5fKa+ORTd4rHMTgJkx89gfsemmVDoejcIgg+81NDw1+jjsbiPeS+R1yD4huELsiJ4l8Mr384Q2R/7+OxalautKlXGDV7dYCmk+7e/f1UZcr9QCNh3Q0lqp3PW37RIW7o62KwB5ivjYp/hZmGG6JvdYrBVsBXFJ1WDKcBA6sGkNWgRshah4b/yiCXrNIAUbOGYsz4OHfsBdQOD7R6EaGa+THYP7lTsPfOxI5C8dtDJadXjeOO8GSIbxgAN8Vlvpgc7dla3jJEikiH3S8UGYlND5Dsywd4znCZ1bzMHsAUyZAuk5bUXBDfZt8S2LBsesHsAJoPhcC6OIT2wcXwdYmhhekwfADsfWrChea8KFFoeTLAbiCU7HXnJcIlukueA2+3qnUiG4CyorlhoSQui7GDEDMH0edgJYYiVstAiG2+wBpsZMgXbxjGLZjzZUucQIQwxdjiTtwkAWfrpBA0xlLXNWjisDQCk90MhDBlX87Y/GtHgMqo1lmEYVQOdOh71ZEn1RWg6XZFv8SckeUFg+uef3T49ECL+/4KxCOHf0NDQ0NDQ0PA1/AvzCle4eBdITgAAAABJRU5ErkJggg=="
 						className="w-5 h-5 rounded-full shadow-md"></img> :
@@ -82,8 +83,6 @@ export const TableItem: React.FC<TableItemProps> = ({ commit }) => {
 					null
 				}
 					</div>
-				</span>
-				<i className="fa-brands fa-python mx-1"></i>
 			</div>
 
 			<span>
