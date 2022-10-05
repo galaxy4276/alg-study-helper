@@ -1,4 +1,4 @@
-import React, { CSSProperties } from 'react';
+import React from 'react';
 import { algStudyUserInfo } from '@src/apis/user-list';
 import { getFillMeaninglessArray } from '@src/utils/mock';
 
