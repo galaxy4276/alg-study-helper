@@ -8,10 +8,11 @@ import { GithubCommitResponse } from '@src/apis/types';
 
 interface ProfileProps extends HTMLAttributes<HTMLDivElement> {
 	data: GithubCommitResponse[];
+	solvedCount: number;
 }
 
 
-export const Profile: React.FC<ProfileProps> = ({ data }) => {
+export const Profile: React.FC<ProfileProps> = ({ data, solvedCount }) => {
 	const { author } = data[0];
 
 	return (
