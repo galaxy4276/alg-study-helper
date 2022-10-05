@@ -6,6 +6,7 @@ import { Avatar } from '@src/components/Profile/Avatar';
 import { getFillMeaninglessArray } from '@src/utils/mock';
 import userList from '@src/apis/user-list';
 import { Profile } from '@src/components/Profile/Profile';
+import { isSolvedCurrentSprint } from '@src/components/Profile/utils';
 
 
 const ProfileLoading = () => (
@@ -40,6 +41,13 @@ export const ProfileList: React.FC = () => {
     userList.map((userBranchName => factory.getUserCommittedList(userBranchName)))
     , [isLoading]);
 
+  const solvedCountList = useMemo(() =>
+      allUserCommittedLists
+        .map(committedList =>
+          committedList?.filter(commitItem => isSolvedCurrentSprint(commitItem.commit.author.date)).length
+        )
+    , [allUserCommittedLists]);
+
   if (isLoading || !factory)
     return (
       <ProfileLayout>
@@ -51,7 +59,12 @@ export const ProfileList: React.FC = () => {
     <ProfileLayout>
       {
         allUserCommittedLists.map(
-          committedList =>  <Profile key={nanoid()} data={committedList} />
+          (committedList, index) =>
+            <Profile
+              key={nanoid()}
+              data={committedList}
+              solvedCount={solvedCountList[index]}
+            />
         )
       }
     </ProfileLayout>
