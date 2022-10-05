@@ -13,7 +13,7 @@ export const Avatar: React.FC<AvatarProps> = (
 		url,
 		isLoading = false,
 	}) => (
-	<div className="flex items-center object-center">
+	<div className="absolute left-1/2 transform -translate-x-1/2 top-[-50px]">
 		{isLoading && <div className="circle-avatar mb-6 animate-pulse bg-slate-300" />}
 		{!isLoading && <img src={url} className="circle-avatar" alt="user-profile-image" />}
 	</div>

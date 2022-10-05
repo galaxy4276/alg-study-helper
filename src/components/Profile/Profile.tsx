@@ -16,12 +16,19 @@ interface ProfileProps extends HTMLAttributes<HTMLDivElement> {
 export const Profile: React.FC<ProfileProps> = ({ data, solvedCount }) => {
 	const { author } = data[0];
 
+	const onClickOpenUserProfile = () =>
+	 window.open(author.htmlUrl);
+
 	return (
 		<article className="my-5 p-5 shadow-md flex flex-col w-full bg-white relative">
 			<Avatar url={author.avatarUrl} />
-			<div className="self-center">
-				<span className="text-slate-700 text-xl">{ author.login }</span>
-			</div>
+				<span
+					onClick={onClickOpenUserProfile}
+					className="
+						pt-16 self-center text-slate-700 text-xl cursor-pointer
+				">
+					{ author.login }
+				</span>
 			<div className="Stiker flex" />
 			<Goals
 				username={author.login as keyof typeof algStudyUserInfo}
