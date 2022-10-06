@@ -5,7 +5,7 @@ import type { GithubCommitResponse } from './types';
 import userList, { userListType } from '@src/apis/user-list';
 
 
-const githubAccessToken = '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';
+const githubAccessToken = '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';
 
 
 export const getSprintStartedDate = () => {

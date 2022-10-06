@@ -14,8 +14,8 @@ export const Goals: React.FC<GoalProps> = ({ solvedCount, username }) => {
 
 	return(
 		<div>
-			<b className="px-1 py-3">
-				Last Goals:
+			<b className="text-slate-700 py-3">
+				remains:&nbsp;
 				{
 					todoCount < 0
 						? Math.abs(todoCount)
