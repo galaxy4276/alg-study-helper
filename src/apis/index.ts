@@ -5,7 +5,7 @@ import type { GithubCommitResponse } from './types';
 import userList, { userListType } from '@src/apis/user-list';
 
 
-const githubAccessToken = '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';
+const githubAccessToken = process.env.REACT_APP_GITHUB_TOKEN;
 
 
 export const getSprintStartedDate = () => {

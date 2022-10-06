@@ -9,6 +9,7 @@ const Icon: React.FC<{ src: string, onClick: () => void }> = ({ src, onClick }) 
     onClick={onClick}
     src={src}
     className="circle-lang__icon shadow-md cursor-pointer"
+    alt="icon"
   />
 
 
@@ -35,6 +36,7 @@ export const Footer: React.FC = () => (
             <img
               src="https://avatars.githubusercontent.com/u/50310464?v=4"
               className="circle-lang__icon shadow-md"
+              alt="developer_image"
             />
             <span>galaxy4276</span>
             <Icon
@@ -53,6 +55,7 @@ export const Footer: React.FC = () => (
             <img
               src="https://avatars.githubusercontent.com/u/64721119?v=4"
               className="circle-lang__icon shadow-md"
+              alt="developer_image"
             />
             <span>minesp3164</span>
             <Icon
