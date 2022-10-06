@@ -67,9 +67,10 @@ const webpackConfig: WebPackConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: htmlTemplateDir }),
-    // new DefinePlugin({
-    //   'process.env.REACT_APP_GITHUB_TOKEN': JSON.stringify(process.env.EACT_APP_GITHUB_TOKEN as string)
-    // }),
+    new DefinePlugin({
+      'process.env': JSON.stringify(process.env),
+      'REACT_APP_GITHUB_TOKEN': JSON.stringify(process.env.REACT_APP_GITHUB_TOKEN),
+    }),
     new EnvironmentPlugin({ ...process.env })
   ],
   resolve: {
