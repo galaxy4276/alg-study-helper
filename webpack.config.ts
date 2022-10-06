@@ -11,10 +11,13 @@ type WebPackConfig = Configuration & WebpackDevServer.Configuration;
 const setOutputByEnv = () => {
   if (process.env.mode === 'development')
     return {
+      path: path.resolve(__dirname, 'public'),
       filename: '[name].[contenthash].js',
       publicPath: '/',
     };
-  return {};
+  return {
+    path: path.resolve(__dirname, 'public'),
+  };
 };
 
 
