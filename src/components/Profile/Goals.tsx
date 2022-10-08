@@ -1,32 +1,32 @@
 import React from 'react';
+import { nanoid } from 'nanoid';
+
 import { algStudyUserInfo } from '@src/apis/user-list';
 import { getFillMeaninglessArray } from '@src/utils/mock';
-import { nanoid } from 'nanoid';
+import { useCommittedListContext } from '@src/hooks/use-committed-list.hooks';
 
 
 interface GoalProps {
-	solvedCount: number;
 	username: keyof typeof algStudyUserInfo;
 }
 
-export const Goals: React.FC<GoalProps> = ({ solvedCount, username }) => {
+export const Goals: React.FC<GoalProps> = ({ username }) => {
+	const { factory } = useCommittedListContext();
 	const userSolutionCount = algStudyUserInfo[username];
+	const solvedCount: number = factory.getUserSolvedCount(username);
 	const todoCount = solvedCount - userSolutionCount;
+	const remainsCount: number = todoCount < 0 ? Math.abs(todoCount) : 0;
 
 	return(
 		<div>
 			<b className="text-slate-700 py-3">
-				remains:&nbsp;
-				{
-					todoCount < 0
-						? Math.abs(todoCount)
-						: 0
-				}
+				remains:&nbsp;{remainsCount}
 			</b>
 			<section className="flex text-slate-900 font-bold text-xl py-2.5 gap-x-1">
 				{getFillMeaninglessArray(solvedCount)
 					.map(() =>
-						<i key={nanoid()} className="fa-solid fa-circle-check text-[#4ABB38]"/> )
+						<i key={nanoid()} className="fa-solid fa-circle-check text-[#4ABB38]"/>
+					)
 				}
 				{
 					todoCount < 0

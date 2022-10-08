@@ -1,19 +1,13 @@
-import React, { HTMLAttributes } from 'react';
+import React from 'react';
 
 import { Problem } from '@src/components/Problem/Problem';
+import { algStudyUserInfo } from '@src/apis/user-list';
+import { useUserCommitList } from './context/UserCommitListContext';
 import { Goals } from './Goals';
 import { Avatar } from './Avatar';
-import { GithubCommitResponse } from '@src/apis/types';
-import { algStudyUserInfo } from '@src/apis/user-list';
-import { useUserCommitList } from '@src/components/Profile/context/UserCommitListContext';
 
 
-interface ProfileProps extends HTMLAttributes<HTMLDivElement> {
-	solvedCount: number;
-}
-
-
-export const Profile: React.FC<ProfileProps> = ({ solvedCount }) => {
+export const Profile: React.FC = () => {
 	const commitList = useUserCommitList();
 	const { author } = commitList[0];
 
@@ -34,7 +28,6 @@ export const Profile: React.FC<ProfileProps> = ({ solvedCount }) => {
 			<div className="Stiker flex" />
 			<Goals
 				username={author.login as keyof typeof algStudyUserInfo}
-				solvedCount={solvedCount}
 			/>
 			<Problem />
 		</article>

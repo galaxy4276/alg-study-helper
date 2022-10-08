@@ -1,11 +1,14 @@
-import React, { PropsWithChildren } from 'react';
+import React, { HTMLAttributes } from 'react';
 
 
-export const ProfileLayout: React.FC<PropsWithChildren> = ({ children }) => (
+interface ProfileLayoutProps extends HTMLAttributes<HTMLDivElement> {}
+
+export const ProfileLayout: React.FC<ProfileLayoutProps> = ({ children, className, ...props  }) => (
   <section
-    className="
-      grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8
-    "
+    className={`
+      grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8 ${className}
+    `}
+    {...props}
   >
     { children }
   </section>

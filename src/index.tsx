@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 
 import '@public/master.css';
 import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
 
 
 import { App } from '@src/App';

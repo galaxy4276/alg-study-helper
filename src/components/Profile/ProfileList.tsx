@@ -5,7 +5,6 @@ import { useCommittedListContext } from '@src/hooks/use-committed-list.hooks';
 import { getFillMeaninglessArray } from '@src/utils/mock';
 import userList from '@src/apis/user-list';
 import { Profile } from '@src/components/Profile/Profile';
-import { isSolvedCurrentSprint } from '@src/components/Profile/utils';
 import { ProfileLayout } from './ProfileLayout';
 import { ProfileLoading } from './ProfileLoading';
 import { UserCommitListContext } from '@src/components/Profile/context/UserCommitListContext';
@@ -18,13 +17,6 @@ export const ProfileList: React.FC = () => {
     userList.map((userBranchName => factory.getUserCommittedList(userBranchName)))
     , [isLoading]);
 
-  const solvedCountList = useMemo(() =>
-      allUserCommittedLists
-        .map(committedList =>
-          committedList?.filter(commitItem => isSolvedCurrentSprint(commitItem.commit.author.date)).length
-        )
-    , [allUserCommittedLists]);
-
   if (isLoading || !factory)
     return (
       <ProfileLayout>
@@ -33,15 +25,15 @@ export const ProfileList: React.FC = () => {
     );
 
   return (
-    <ProfileLayout>
+    <ProfileLayout id="profile-capture">
       {
         allUserCommittedLists.map(
           (committedList, index) => (
-              <UserCommitListContext.Provider value={committedList}>
-                <Profile
-                  key={nanoid()}
-                  solvedCount={solvedCountList[index]}
-                />
+              <UserCommitListContext.Provider
+                value={committedList}
+                key={nanoid()}
+              >
+                <Profile />
               </UserCommitListContext.Provider>
             )
         )

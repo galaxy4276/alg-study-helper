@@ -2,8 +2,8 @@ import React from 'react';
 
 import { AppLayout } from '@src/components/AppLayout';
 import { Header } from '@src/components/Header';
-import { ProfileList } from '@src/components/Profile/ProfileList';
-import { QuoteSwiper } from '@src/components/Quote/QuoteSwiper';
+import { ProfileList } from '@src/components/Profile';
+import { QuoteSwiper } from '@src/components/Quote';
 import { Footer } from '@src/components/Footer';
 
 

@@ -2,7 +2,8 @@ import React from 'react';
 import { nanoid } from 'nanoid';
 
 import { TableItem } from './TableItem';
-import { useUserCommitList } from '@src/components/Profile/context/UserCommitListContext';
+import { GithubCommitResponse } from '@src/apis/types';
+import { useUserCommitList } from '../Profile/context/UserCommitListContext';
 
 
 export const Problem: React.FC = () => {
@@ -15,9 +16,9 @@ export const Problem: React.FC = () => {
 			<div className="shadow-md">
 				{
 					slicedCommits
-						.map(commit => <TableItem key={nanoid()} commit={commit} />)
+						.map((commit: GithubCommitResponse) => <TableItem key={nanoid()} commit={commit} />)
 				}
 			</div>
 		</section>
 	);
-}
+};

@@ -1,7 +1,7 @@
 import { createContext, useContext, useLayoutEffect, useState } from 'react';
 
 import { getAllUserCommittedList } from '@src/apis';
-import CommittedListMapper from '@src/apis/Mapper';
+import CommittedListMapper from '@src/apis/mapper';
 
 
 type HookProps = {

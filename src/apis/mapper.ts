@@ -30,6 +30,10 @@ class CommittedListMapper {
   public getUserCommittedList(user: userListType) {
     return this.userCommitListTable.get(user) as GithubCommitResponse[];
   }
+
+  public getUserSolvedCount(user: userListType) {
+    return this.userSolvedCountTable.get(user) as number;
+  }
 }
 
 export default CommittedListMapper;

@@ -5,7 +5,7 @@ const userList = [
   'galaxy4276',
   'Antidote21',
   'ChanSuy',
-  'minesp',
+  'minesp3164',
   'pandora2948',
 ] as const;
 
@@ -14,7 +14,7 @@ export type userListType =
   'galaxy4276' |
   'Antidote21' |
   'ChanSuy' |
-  'minesp' |
+  'minesp3164' |
   'pandora2948';
 
 export const userNameList = [
