@@ -11,10 +11,13 @@ type WebPackConfig = Configuration & WebpackDevServer.Configuration;
 const setOutputByEnv = () => {
   if (process.env.mode === 'development')
     return {
+      path: path.resolve(__dirname, 'public/'),
       filename: '[name].[contenthash].js',
       publicPath: '/',
     };
-  return {};
+  return {
+    path: path.resolve(__dirname, 'public/'),
+  };
 };
 
 
@@ -67,9 +70,10 @@ const webpackConfig: WebPackConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: htmlTemplateDir }),
-    // new DefinePlugin({
-    //   'process.env.REACT_APP_GITHUB_TOKEN': JSON.stringify(process.env.EACT_APP_GITHUB_TOKEN as string)
-    // }),
+    new DefinePlugin({
+      'process.env': JSON.stringify(process.env),
+      'REACT_APP_GITHUB_TOKEN': JSON.stringify(process.env.REACT_APP_GITHUB_TOKEN),
+    }),
     new EnvironmentPlugin({ ...process.env })
   ],
   resolve: {

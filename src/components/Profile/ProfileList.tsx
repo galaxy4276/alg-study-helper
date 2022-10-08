@@ -11,7 +11,6 @@ import { isSolvedCurrentSprint } from '@src/components/Profile/utils';
 
 const ProfileLoading = () => (
   <article className="my-5 p-5 shadow-md flex flex-col w-full animate-pulse">
-    <Avatar isLoading />
     <div className="flex-all flex-col gap-y-2.5">
       {
         getFillMeaninglessArray(5)
@@ -26,7 +25,7 @@ const ProfileLoading = () => (
 const ProfileLayout: React.FC<PropsWithChildren> = ({ children }) => (
   <section
     className="
-      grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-5
+      grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8
     "
   >
     { children }

@@ -2,6 +2,9 @@ import React, { PropsWithChildren } from 'react';
 import ReactDOM from 'react-dom/client';
 
 import '@public/master.css';
+import 'swiper/css';
+
+
 import { App } from '@src/App';
 import useCommittedList from '@src/hooks/use-committed-list.hooks';
 

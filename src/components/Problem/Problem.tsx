@@ -13,12 +13,14 @@ export const Problem: React.FC<ProblemProps> = ({ commits }) => {
 	const slicedCommits = commits.slice(0, 5);
 
 	return (
-		<section className="shadow-md overflow-hidden">
+		<section className="overflow-hidden">
 			<h3 className="text-slate-800 font-semibold pb-2.5">Current solved</h3>
-			{
-				slicedCommits
-					.map(commit => <TableItem key={nanoid()} commit={commit} />)
-			}
+			<div className="shadow-md">
+				{
+					slicedCommits
+						.map(commit => <TableItem key={nanoid()} commit={commit} />)
+				}
+			</div>
 		</section>
 	);
 }

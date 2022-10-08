@@ -16,7 +16,7 @@ interface TableItemProps {
 }
 
 const getSimpleDate = (date: string) =>
-	new Date(date).toISOString().substring(0, 10);
+	new Date(date).toISOString().substring(5, 10);
 
 const getSolvedLang = (message: string) =>
 	langs.find(lang => message.toLowerCase().includes(lang));
@@ -38,7 +38,9 @@ const removeMessageTag = (message: string) => {
 const validateSolution = (message: string) => {
 	const regex = /(?:\[)([\w가-힣0-9\s]+)(?:\])/g;
 	const regexArray = message.match(regex) || ['알 수 없음'];
-	return removeMessageTag(regexArray[0]);
+	return sliceMessageRatherThanScreenSize(
+		removeMessageTag(regexArray[0])
+	);
 }
 
 
@@ -55,7 +57,8 @@ export const TableItem: React.FC<TableItemProps> = ({ commit }) => {
 			onClick={onClickSolvedCol}
 			className="
 				flex justify-between py-1.5 px-2 table-item whitespace-nowrap text-slate-600
-				cursor-pointer hover:bg-slate-300 transition delay-200
+				cursor-pointer hover:bg-slate-300 transition duration-300
+				text-sm xl:text-base
 			"
 		>
 			<div className="flex items-center">

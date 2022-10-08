@@ -20,12 +20,13 @@ export const Profile: React.FC<ProfileProps> = ({ data, solvedCount }) => {
 	 window.open(author.htmlUrl);
 
 	return (
-		<article className="my-5 p-5 shadow-md flex flex-col w-full bg-white relative">
+		<article className="my-5 p-5 shadow-lg rounded-md flex flex-col w-full bg-white relative">
 			<Avatar url={author.avatarUrl} />
 				<span
 					onClick={onClickOpenUserProfile}
 					className="
 						pt-16 self-center text-slate-700 text-xl cursor-pointer
+						hover:text-cyan-500 transition
 				">
 					{ author.login }
 				</span>

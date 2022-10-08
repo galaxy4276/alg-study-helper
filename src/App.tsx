@@ -1,9 +1,10 @@
 import React from 'react';
 
 import { AppLayout } from '@src/components/AppLayout';
-import { Quote } from '@src/components/Quote';
 import { Header } from '@src/components/Header';
 import { ProfileList } from '@src/components/Profile/ProfileList';
+import { QuoteSwiper } from '@src/components/Quote/QuoteSwiper';
+import { Footer } from '@src/components/Footer';
 
 
 export const App: React.FC = () => {
@@ -11,10 +12,9 @@ export const App: React.FC = () => {
   return (
     <AppLayout>
       <Header />
-      <Quote writer="Maya Angelou">
-        You will face many defeats in life, but never let yourself be defeated
-      </Quote>
+      <QuoteSwiper />
       <ProfileList />
+      <Footer />
     </AppLayout>
   );
 };
