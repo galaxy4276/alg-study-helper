@@ -44,3 +44,12 @@ html, body {
 .circle-lang__icon {
   @apply w-5 h-5 rounded-full shadow-md;
 }
+
+.item-layout {
+  @apply flex justify-between whitespace-nowrap cursor-pointer;
+}
+
+.table-item__hover {
+  @apply hover:bg-slate-300 transition duration-300
+  [&:nth-child(odd)]:bg-slate-100 [&:nth-child(odd)]:hover:bg-slate-300;
+}

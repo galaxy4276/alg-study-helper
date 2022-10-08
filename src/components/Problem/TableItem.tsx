@@ -56,9 +56,8 @@ export const TableItem: React.FC<TableItemProps> = ({ commit }) => {
 		<div
 			onClick={onClickSolvedCol}
 			className="
-				flex justify-between py-1.5 px-2 table-item whitespace-nowrap text-slate-600
-				cursor-pointer hover:bg-slate-300 transition duration-300
-				text-sm xl:text-base
+			  py-1.5 px-2 item-layout text-slate-600
+				cursor-pointer text-sm xl:text-base table-item__hover
 			"
 		>
 			<div className="flex items-center">

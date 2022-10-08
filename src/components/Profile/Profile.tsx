@@ -5,16 +5,17 @@ import { Goals } from './Goals';
 import { Avatar } from './Avatar';
 import { GithubCommitResponse } from '@src/apis/types';
 import { algStudyUserInfo } from '@src/apis/user-list';
+import { useUserCommitList } from '@src/components/Profile/context/UserCommitListContext';
 
 
 interface ProfileProps extends HTMLAttributes<HTMLDivElement> {
-	data: GithubCommitResponse[];
 	solvedCount: number;
 }
 
 
-export const Profile: React.FC<ProfileProps> = ({ data, solvedCount }) => {
-	const { author } = data[0];
+export const Profile: React.FC<ProfileProps> = ({ solvedCount }) => {
+	const commitList = useUserCommitList();
+	const { author } = commitList[0];
 
 	const onClickOpenUserProfile = () =>
 	 window.open(author.htmlUrl);
@@ -35,7 +36,7 @@ export const Profile: React.FC<ProfileProps> = ({ data, solvedCount }) => {
 				username={author.login as keyof typeof algStudyUserInfo}
 				solvedCount={solvedCount}
 			/>
-			<Problem commits={data} />
+			<Problem />
 		</article>
 	);
 };

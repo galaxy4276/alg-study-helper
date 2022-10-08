@@ -1,16 +1,13 @@
 import React from 'react';
-import { TableItem } from './TableItem';
-import './styles.css';
-import { GithubCommitResponse } from '@src/apis/types';
 import { nanoid } from 'nanoid';
 
+import { TableItem } from './TableItem';
+import { useUserCommitList } from '@src/components/Profile/context/UserCommitListContext';
 
-interface ProblemProps {
-	commits: GithubCommitResponse[];
-}
 
-export const Problem: React.FC<ProblemProps> = ({ commits }) => {
-	const slicedCommits = commits.slice(0, 5);
+export const Problem: React.FC = () => {
+	const commitList = useUserCommitList();
+	const slicedCommits = commitList.slice(0, 5);
 
 	return (
 		<section className="overflow-hidden">

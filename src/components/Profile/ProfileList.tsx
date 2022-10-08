@@ -1,7 +1,6 @@
 import React, { useMemo } from 'react';
 import { nanoid } from 'nanoid';
 
-
 import { useCommittedListContext } from '@src/hooks/use-committed-list.hooks';
 import { getFillMeaninglessArray } from '@src/utils/mock';
 import userList from '@src/apis/user-list';
@@ -9,6 +8,7 @@ import { Profile } from '@src/components/Profile/Profile';
 import { isSolvedCurrentSprint } from '@src/components/Profile/utils';
 import { ProfileLayout } from './ProfileLayout';
 import { ProfileLoading } from './ProfileLoading';
+import { UserCommitListContext } from '@src/components/Profile/context/UserCommitListContext';
 
 
 export const ProfileList: React.FC = () => {
@@ -30,18 +30,20 @@ export const ProfileList: React.FC = () => {
       <ProfileLayout>
         { getFillMeaninglessArray(6).map(() => <ProfileLoading key={nanoid()} />) }
       </ProfileLayout>
-    )
+    );
 
   return (
     <ProfileLayout>
       {
         allUserCommittedLists.map(
-          (committedList, index) =>
-            <Profile
-              key={nanoid()}
-              data={committedList}
-              solvedCount={solvedCountList[index]}
-            />
+          (committedList, index) => (
+              <UserCommitListContext.Provider value={committedList}>
+                <Profile
+                  key={nanoid()}
+                  solvedCount={solvedCountList[index]}
+                />
+              </UserCommitListContext.Provider>
+            )
         )
       }
     </ProfileLayout>
