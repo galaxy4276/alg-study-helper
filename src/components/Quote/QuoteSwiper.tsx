@@ -1,11 +1,10 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper';
+import { Autoplay, EffectFade, Pagination } from 'swiper';
 
 import { Quote } from '@src/components/Quote/Quote';
+import wiseSayingData from './wise-saying-data';
 
-
-const Dot = <div className="w-[5px] h-[5px] rounded-full bg-amber-300"></div>;
 
 export const QuoteSwiper: React.FC = () => {
   return (
@@ -15,19 +14,22 @@ export const QuoteSwiper: React.FC = () => {
         delay: 5000,
         disableOnInteraction: false,
       }}
-      modules={[Autoplay]}
+      effect="fade"
+      pagination={{
+        clickable: true,
+      }}
+      modules={[Autoplay, Pagination, EffectFade]}
       loop
+      className="mb-10"
     >
-      <SwiperSlide>
-        <Quote writer="Maxime Lagacé">
-          Life is a mountain. Your goal is to find your path, not to reach the top.
-        </Quote>
-      </SwiperSlide>
-      <SwiperSlide>
-        <Quote writer="Washington Irving">
-          Great minds have purposes, others have wishes.
-        </Quote>
-      </SwiperSlide>
+      {
+        wiseSayingData.map(wisdom => (
+            <SwiperSlide>
+              <Quote writer={wisdom[1]}>{wisdom[0]}</Quote>
+            </SwiperSlide>
+          )
+        )
+      }
     </Swiper>
   );
-}
+};
