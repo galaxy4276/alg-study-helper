@@ -27,8 +27,8 @@ const getSolvedLang = (message: string) => {
 };
 
 const sliceMessageRatherThanScreenSize = (message: string) =>
-	(message.length > 15)
-		? message.substring(0, 15) + '..'
+	(message.length > 18)
+		? message.substring(0, 18) + '..'
 		: message;
 
 const removeMessageTag = (message: string) => {
@@ -48,7 +48,7 @@ const validateSolution = (message: string) => {
 			removeMessageTag('알 수 없음'),
 		);
 	return sliceMessageRatherThanScreenSize(
-		removeMessageTag(message.slice(startIndex, endIndex)),
+		removeMessageTag(message.slice(startIndex, endIndex + 1)),
 	);
 }
 
