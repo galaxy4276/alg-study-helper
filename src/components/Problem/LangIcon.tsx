@@ -1,17 +1,8 @@
 import React from 'react';
 import langIcons from '@src/components/Problem/base';
 
-const langs = [
-  'c',
-  'c++',
-  'java',
-  'rust',
-  'python',
-] as const;
-
-
 export interface LangIconProps {
-  lang?: 'c' | 'c++' | 'java' | 'rust' | 'python';
+  lang?: 'c' | 'c++' | 'java' | 'rust' | 'python' | 'kotlin';
 }
 
 
@@ -31,6 +22,9 @@ export const LangIcon: React.FC<LangIconProps> = ({ lang }) => {
     }
     case 'python': {
       return <img src={langIcons.python} className="circle-lang__icon" alt="python" />;
+    }
+    case 'kotlin': {
+      return <img src={langIcons.kotlin} alt="kotlin" />
     }
     default: {
       return null;
