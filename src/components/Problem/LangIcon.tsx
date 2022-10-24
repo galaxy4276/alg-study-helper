@@ -24,7 +24,7 @@ export const LangIcon: React.FC<LangIconProps> = ({ lang }) => {
       return <img src={langIcons.python} className="circle-lang__icon" alt="python" />;
     }
     case 'kotlin': {
-      return <img src={langIcons.kotlin} alt="kotlin" />
+      return <img src={langIcons.kotlin} alt="kotlin" style={{ width: 16, height: 16 }} />
     }
     default: {
       return null;
