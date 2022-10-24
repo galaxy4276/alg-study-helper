@@ -9,6 +9,7 @@ const langs = [
 	'java',
 	'rust',
 	'python',
+	'kotlin'
 ] as const;
 
 interface TableItemProps {
@@ -18,12 +19,16 @@ interface TableItemProps {
 const getSimpleDate = (date: string) =>
 	new Date(date).toISOString().substring(5, 10);
 
-const getSolvedLang = (message: string) =>
-	langs.find(lang => message.toLowerCase().includes(lang));
+const getSolvedLang = (message: string) => {
+	const solutionNameEndIndex = message.indexOf(']');
+	if (solutionNameEndIndex == -1) return '';
+	const langMessage = message.slice(solutionNameEndIndex + 1, message.length);
+	return langs.find(lang => langMessage.toLowerCase().includes(lang));
+};
 
 const sliceMessageRatherThanScreenSize = (message: string) =>
-	(message.length > 10)
-		? message.substring(0, 10) + '..'
+	(message.length > 15)
+		? message.substring(0, 15) + '..'
 		: message;
 
 const removeMessageTag = (message: string) => {
@@ -36,10 +41,14 @@ const removeMessageTag = (message: string) => {
 };
 
 const validateSolution = (message: string) => {
-	const regex = /(?:\[)([\w가-힣0-9\s]+)(?:\])/g;
-	const regexArray = message.match(regex) || ['알 수 없음'];
+	const startIndex = message.indexOf('[');
+	const endIndex = message.indexOf(']');
+	if (startIndex === -1 && endIndex === -1)
+		return sliceMessageRatherThanScreenSize(
+			removeMessageTag('알 수 없음'),
+		);
 	return sliceMessageRatherThanScreenSize(
-		removeMessageTag(regexArray[0])
+		removeMessageTag(message.slice(startIndex, endIndex)),
 	);
 }
 
