@@ -20,7 +20,8 @@
       "@src/*": ["./src/*"],
       "@components/*": ["./components/*"],
       "@layouts/*": ["./layouts/*"],
-      "@public/*": ["./public/*"]
+      "@public/*": ["./public/*"],
+      "@images/*": ["./images/*"]
     }
   },
   "include": ["src"],

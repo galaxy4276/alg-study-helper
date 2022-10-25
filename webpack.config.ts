@@ -1,7 +1,8 @@
+import path from 'path';
 import { Configuration, DefinePlugin, EnvironmentPlugin } from 'webpack';
 import WebpackDevServer from 'webpack-dev-server';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import path from 'path';
+// import CopyPlugin from 'copy-webpack-plugin';
 
 
 const entryDir = path.resolve(__dirname, 'src', 'index.tsx');
@@ -50,10 +51,22 @@ const webpackConfig: WebPackConfig = {
           },
         },
       },
+      // {
+      //   test: /\.(png|gif|jpg|jpeg)$/,
+      //   include: [
+      //     path.resolve(__dirname, 'images'),
+      //   ],
+      //   use: {
+      //     loader: 'file-loader?name=./images/[name].[ext]',
+      //   }
+      // },
       {
         test: /\.(png|jpg|gif)$/i,
         use: {
           loader: 'url-loader',
+          options: {
+            name: '[name].[ext]?[hash]',
+          }
         },
       },
       {
@@ -74,7 +87,12 @@ const webpackConfig: WebPackConfig = {
       'process.env': JSON.stringify(process.env),
       'REACT_APP_GITHUB_TOKEN': JSON.stringify(process.env.REACT_APP_GITHUB_TOKEN),
     }),
-    new EnvironmentPlugin({ ...process.env })
+    new EnvironmentPlugin({ ...process.env }),
+    // new CopyPlugin({
+    //   patterns: [
+    //     { from: 'images', to: 'public' }
+    //   ]
+    // })
   ],
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
@@ -84,6 +102,7 @@ const webpackConfig: WebPackConfig = {
       '@layouts': path.resolve(__dirname, 'src', 'layouts/'),
       '@components': path.resolve(__dirname, 'src', 'components/'),
       '@public': path.resolve(__dirname, 'src', 'public/'),
+      '@images': path.resolve(__dirname, 'images/'),
     },
   },
 };
