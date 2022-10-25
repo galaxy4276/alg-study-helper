@@ -11,7 +11,7 @@ export const Problem: React.FC = () => {
 	const slicedCommits = commitList.slice(0, 5);
 
 	return (
-		<section className="overflow-hidden">
+		<section className="overflow-hidden shadow-md">
 			<h3 className="text-slate-800 font-semibold pb-2.5">Current solved</h3>
 			<div className="shadow-md">
 				{

@@ -1,30 +1,47 @@
-import React from 'react';
+import React, { CSSProperties } from 'react';
 import langIcons from '@src/components/Problem/base';
 
 export interface LangIconProps {
-  lang?: 'c' | 'c++' | 'java' | 'rust' | 'python' | 'kotlin';
+  lang: 'c' | 'c++' | 'java' | 'rust' | 'python' | 'kotlin' | 'sql' | '';
 }
 
+const styles: CSSProperties = {
+  width: 16,
+  height: 16,
+};
+
+const IconImage: React.FC<{ src: string, alt: string }> = (
+  {
+    src,
+    alt
+  }
+) =>
+  <img
+    src={src}
+    className="circle-lang__icon"
+    alt={alt}
+    style={styles}
+  />;
 
 export const LangIcon: React.FC<LangIconProps> = ({ lang }) => {
   switch (lang) {
     case 'c': {
-      return <img src={langIcons.c} className="circle-lang__icon" alt="c" />;
+      return <IconImage src={langIcons.c} alt="c" />;
     }
     case 'c++': {
-      return <img src={langIcons['c++']} className="circle-lang__icon" alt="c++" />;
+      return <IconImage src={langIcons['c++']} alt="c++" />;
     }
     case 'java': {
-      return <img src={langIcons.java} className="circle-lang__icon" alt="java" />;
+      return <IconImage src={langIcons.java} alt="java" />;
     }
     case 'rust': {
-      return <img src={langIcons.rust} className="circle-lang__icon" alt="rust" />;
+      return <IconImage src={langIcons.rust} alt="rust" />;
     }
     case 'python': {
-      return <img src={langIcons.python} className="circle-lang__icon" alt="python" />;
+      return <IconImage src={langIcons.python} alt="python" />;
     }
     case 'kotlin': {
-      return <img src={langIcons.kotlin} alt="kotlin" style={{ width: 16, height: 16 }} />
+      return <IconImage src={langIcons.kotlin} alt="kotlin" />
     }
     default: {
       return null;

@@ -9,7 +9,8 @@ const langs = [
 	'java',
 	'rust',
 	'python',
-	'kotlin'
+	'kotlin',
+	'sql',
 ] as const;
 
 interface TableItemProps {
@@ -23,7 +24,7 @@ const getSolvedLang = (message: string) => {
 	const solutionNameEndIndex = message.indexOf(']');
 	if (solutionNameEndIndex == -1) return '';
 	const langMessage = message.slice(solutionNameEndIndex + 1, message.length);
-	return langs.find(lang => langMessage.toLowerCase().includes(lang));
+	return langs.find(lang => langMessage.toLowerCase().includes(lang)) || '';
 };
 
 const sliceMessageRatherThanScreenSize = (message: string) =>
@@ -83,5 +84,5 @@ export const TableItem: React.FC<TableItemProps> = ({ commit }) => {
 				{ committedDate }
 			</span>
 		</div>
-	)
+	);
 };
