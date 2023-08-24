@@ -3,7 +3,6 @@
  */
 const userList = [
   'galaxy4276',
-  'H4PuM',
   'Antidote21',
   'ChanSuy',
   'minesp3164',
@@ -13,7 +12,6 @@ const userList = [
 
 export type userListType =
   'galaxy4276' |
-  'H4PuM' |
   'Antidote21' |
   'ChanSuy' |
   'minesp3164' |
@@ -21,7 +19,6 @@ export type userListType =
 
 export const userNameList = [
   'galaxy4276',
-  'H4PuM',
   'Antidote21',
   'ChanSuy',
   'minesp3164',
@@ -30,7 +27,6 @@ export const userNameList = [
 
 export const algStudyUserInfo = {
   'galaxy4276': 2,
-  'H4PuM': 2,
   'Antidote21': 2,
   'ChanSuy': 3,
   'minesp3164': 2,
