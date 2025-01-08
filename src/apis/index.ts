@@ -8,8 +8,7 @@ import { getSprintEndDate, getSprintStartedDate } from '@src/utils/date';
 
 const githubAccessToken = process.env.REACT_APP_GITHUB_TOKEN;
 
-
-const baseApiUrl = `https://api.github.com/repos/galaxy4276/algorithm-study/commits?sha=`;
+const baseApiUrl = `https://api.github.com/repos/TtT-Try-to-Template/algorithm-forge/commits?sha=`;
 export const getApiUrl = (userBranchName: string) =>
   `
     ${baseApiUrl}${userBranchName}&q=created:${getSprintStartedDate()}..${getSprintEndDate()}
@@ -33,6 +32,7 @@ export const getUserCommittedList = async (userBranchName: string) =>
   axios.get<GithubCommitResponse[]>(getApiUrl(userBranchName), {
     headers: {
       Authorization: `Bearer ${githubAccessToken}`,
+      'X-GitHub-Api-Version': '2022-11-28',
     },
   });
 
@@ -50,8 +50,11 @@ export const getUserCommittedListJson =
 /**
  * @dsec 모든 사용자 브랜치명 기준으로 각각 커밋리스트 요청의 비동기 수행(Promise.all) 을  반환합니다.
  */
-export const getAllUserCommittedList = () => {
+export const getAllUserCommittedList = async () => {
   const promises: Promise<{[p: string]: GithubCommitResponse[]}>[] =
     userList.map(getUserCommittedListJson);
-  return Promise.all(promises);
+  const results = await Promise.allSettled(promises);
+  return results
+    .filter(d => d.status === 'fulfilled')
+    .map((d: any) => d.value);
 };

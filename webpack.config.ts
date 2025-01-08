@@ -2,7 +2,8 @@ import path from 'path';
 import { Configuration, DefinePlugin, EnvironmentPlugin } from 'webpack';
 import WebpackDevServer from 'webpack-dev-server';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-// import CopyPlugin from 'copy-webpack-plugin';
+import dotenv from "dotenv";
+import CopyPlugin from 'copy-webpack-plugin';
 
 
 const entryDir = path.resolve(__dirname, 'src', 'index.tsx');
@@ -51,15 +52,15 @@ const webpackConfig: WebPackConfig = {
           },
         },
       },
-      // {
-      //   test: /\.(png|gif|jpg|jpeg)$/,
-      //   include: [
-      //     path.resolve(__dirname, 'images'),
-      //   ],
-      //   use: {
-      //     loader: 'file-loader?name=./images/[name].[ext]',
-      //   }
-      // },
+      {
+        test: /\.(png|gif|jpg|jpeg|svg)$/,
+        include: [
+          path.resolve(__dirname, 'images'),
+        ],
+        use: {
+          loader: 'file-loader?name=./images/[name].[ext]',
+        }
+      },
       {
         test: /\.(png|jpg|gif)$/i,
         use: {
@@ -84,15 +85,22 @@ const webpackConfig: WebPackConfig = {
   plugins: [
     new HtmlWebpackPlugin({ template: htmlTemplateDir }),
     new DefinePlugin({
-      'process.env': JSON.stringify(process.env),
+      'process.env': JSON.stringify(dotenv.config().parsed),
       'REACT_APP_GITHUB_TOKEN': JSON.stringify(process.env.REACT_APP_GITHUB_TOKEN),
     }),
     new EnvironmentPlugin({ ...process.env }),
-    // new CopyPlugin({
-    //   patterns: [
-    //     { from: 'images', to: 'public' }
-    //   ]
-    // })
+    new CopyPlugin({
+      patterns: [
+        { from: './src/public/unchecked.svg', to: 'unchecked.svg', filter: (data) => {
+          return data !== "index.html";
+          }
+        },
+        {
+          from: './src/public/checked.svg',
+          to: 'checked.svg',
+        }
+      ],
+    }),
   ],
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],

@@ -8,7 +8,6 @@ import { Footer } from '@src/components/Footer';
 
 
 export const App: React.FC = () => {
-
   return (
     <AppLayout>
       <Header />

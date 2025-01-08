@@ -13,7 +13,6 @@ import { UserCommitListContext } from '@src/components/Profile/context/UserCommi
 export const ProfileList: React.FC = () => {
   const { factory, isLoading } = useCommittedListContext();
 
-
   const allUserCommittedLists = useMemo(() =>
     userList.map((userBranchName => factory.getUserCommittedList(userBranchName)))
     , [isLoading]);
@@ -26,7 +25,7 @@ export const ProfileList: React.FC = () => {
     );
 
   return (
-    <ProfileLayout id="profile-capture">
+    <ProfileLayout id="profile-capture" className="flex-1">
       {
         allUserCommittedLists.map(
           (committedList) => (

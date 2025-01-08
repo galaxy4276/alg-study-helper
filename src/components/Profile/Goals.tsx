@@ -25,14 +25,15 @@ export const Goals: React.FC<GoalProps> = ({ username }) => {
 			<section className="flex text-slate-900 font-bold text-xl py-2.5 gap-x-1">
 				{getFillMeaninglessArray(solvedCount)
 					.map(() =>
-						<i key={nanoid()} className="fa-solid fa-circle-check text-[#4ABB38]"/>
+						<img src="/checked.svg" />
 					)
 				}
 				{
 					todoCount < 0
 						? getFillMeaninglessArray(Math.abs(todoCount))
 							.map(() =>
-								<i key={nanoid()} className="fa-solid fa-circle-xmark text-[#CB3535]"/>)
+								<img src="/unchecked.svg" />
+							)
 						: null
 				}
 			</section>

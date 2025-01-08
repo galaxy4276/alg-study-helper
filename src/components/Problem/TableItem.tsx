@@ -17,14 +17,16 @@ interface TableItemProps {
 	commit: GithubCommitResponse;
 }
 
+const messageExp = /(?:^solved:\s)(?:\w+)\s(.+)$/;
+const langExp = /(?:\s)(\w+)(?:\s)/;
+
 const getSimpleDate = (date: string) =>
 	new Date(date).toISOString().substring(5, 10);
 
 const getSolvedLang = (message: string) => {
-	const solutionNameEndIndex = message.indexOf(']');
-	if (solutionNameEndIndex == -1) return '';
-	const langMessage = message.slice(solutionNameEndIndex + 1, message.length);
-	return langs.find(lang => langMessage.toLowerCase().includes(lang)) || '';
+	const langName = message.match(langExp)?.[1];
+	if (!langName) return '';
+	return langs.find(lang => lang.toLowerCase().includes(langName)) || '';
 };
 
 const sliceMessageRatherThanScreenSize = (message: string) =>
@@ -32,25 +34,10 @@ const sliceMessageRatherThanScreenSize = (message: string) =>
 		? message.substring(0, 18) + '..'
 		: message;
 
-const removeMessageTag = (message: string) => {
-	if (message == '알 수 없음') return message;
-	if (message.includes(':')) {
-		const index = message.indexOf(':');
-		return message.slice(index + 1, message.length - 1);
-	}
-	return message.slice(1, message.length - 1);
-};
-
 const validateSolution = (message: string) => {
-	const startIndex = message.indexOf('[');
-	const endIndex = message.indexOf(']');
-	if (startIndex === -1 && endIndex === -1)
-		return sliceMessageRatherThanScreenSize(
-			removeMessageTag('알 수 없음'),
-		);
-	return sliceMessageRatherThanScreenSize(
-		removeMessageTag(message.slice(startIndex, endIndex + 1)),
-	);
+	const expResult = message.match(messageExp)?.[1];
+	if (!expResult) return '알 수 없음';
+	return sliceMessageRatherThanScreenSize(expResult);
 }
 
 

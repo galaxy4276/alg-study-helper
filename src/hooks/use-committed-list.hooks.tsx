@@ -38,10 +38,16 @@ const useFetchGithubApi = () => {
 
   useLayoutEffect(() => {
     (async () => {
-      setIsLoading(true);
-      const userCommittedList = await getAllUserCommittedList();
-      setFactory(new CommittedListMapper(userCommittedList));
-      setIsLoading(false);
+      try {
+        setIsLoading(true);
+        const userCommittedList = await getAllUserCommittedList()
+        setFactory(new CommittedListMapper(userCommittedList));
+      } catch (error) {
+        console.error(error);
+        setFactory(new CommittedListMapper([]));
+      } finally {
+        setIsLoading(false);
+      }
     })();
   }, []);
 

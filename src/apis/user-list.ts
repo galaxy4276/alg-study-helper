@@ -3,35 +3,21 @@
  */
 const userList = [
   'galaxy4276',
-  'Antidote21',
-  'ChanSuy',
-  'minesp3164',
-  'pandora2948',
+  'heychi',
+  'mjmj1',
+  'west-eastH',
+  'hyunjung2222',
 ] as const;
 
 
-export type userListType =
-  'galaxy4276' |
-  'Antidote21' |
-  'ChanSuy' |
-  'minesp3164' |
-  'pandora2948';
+export type userListType = typeof userList[number];
 
-export const userNameList = [
-  'galaxy4276',
-  'Antidote21',
-  'ChanSuy',
-  'minesp3164',
-  'pandora2948',
-];
-
-export const algStudyUserInfo = {
-  'galaxy4276': 2,
-  'Antidote21': 2,
-  'ChanSuy': 3,
-  'minesp3164': 2,
-  'pandora2948': 1,
+export const algStudyUserInfo: Record<userListType, number> = {
+  galaxy4276: 3,
+  heychi: 3,
+  'west-eastH': 3,
+  mjmj1: 3,
+  hyunjung2222: 3,
 };
-
 
 export default userList;

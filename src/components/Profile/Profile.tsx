@@ -9,10 +9,14 @@ import { Avatar } from './Avatar';
 
 export const Profile: React.FC = () => {
 	const commitList = useUserCommitList();
-	const { author } = commitList[0];
+	console.log({ commitList });
+	const firstCommit = commitList?.length > 0 ? commitList[0] : undefined;
+	const author = firstCommit && firstCommit.author;
 
 	const onClickOpenUserProfile = () =>
-	 window.open(author.htmlUrl);
+	 window.open(author?.htmlUrl);
+
+	if (!author) return null;
 
 	return (
 		<article className="my-5 p-5 shadow-lg rounded-md flex flex-col w-full bg-white relative">
