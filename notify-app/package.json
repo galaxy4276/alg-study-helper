@@ -1,0 +1,20 @@
+{
+  "name": "notify-server",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@fastify/env": "^5.0.2",
+    "@slack/web-api": "^7.8.0",
+    "@types/node": "^22.10.5",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
