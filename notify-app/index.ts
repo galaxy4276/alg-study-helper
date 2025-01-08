@@ -63,6 +63,17 @@ app.post('/alg-study', async (request, reply) => {
 					"text": simpleMessage,
 					"emoji": true
 				}
+			},
+			{
+				type: 'divider',
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "plain_text",
+					"text": `*<https://han-box.co.kr|문제 풀이 현황보기>*`,
+					"emoji": true
+				}
 			}
 		],
 	});
